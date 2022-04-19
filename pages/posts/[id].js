@@ -41,7 +41,13 @@ export async function getStaticProps({ params }) {
         <div className={utilStyles.lightText}>
           <Date dateString={postData.date} />
         </div>
-        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <div className='prose
+          prose-headings:text-white
+          
+          text-white
+          prose-a:no-underline
+          prose-a:text-[#bca8ff]
+        ' dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
       </Layout>
     )
