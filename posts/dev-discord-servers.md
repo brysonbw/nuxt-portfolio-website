@@ -32,7 +32,7 @@ Really good server for cs students out there.
 ## Rust 
 [The Rust Programming Language](https://discord.gg/n2dSXhm4Kh)
 
-I love rust hahaha, still learning but the community is great and the discord is no different. 
+I love rust hahaha, the community is great and the discord is no different. 
 
 ## Solana + Anchor
 [Solana Tech](https://discord.gg/solana)
@@ -45,5 +45,5 @@ According to [Anchor's github repo](https://github.com/project-serum/anchor) - A
 
 Along with Solana, Anchor is fairly new too. Also, been having fun learning anchor and writing Solana smart contracts. 
 
-The Discord is super active and even the creator of Anchor, Armani Ferrante
+The Discord is super active and even the creator of Anchor, Armani Ferrante.
 

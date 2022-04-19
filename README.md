@@ -1,4 +1,4 @@
-# ### Next Portfolio Website & Blog
+# Next Portfolio Website & Blog
 
 ## (Built With) Technologies & Frameworks
 - Next
