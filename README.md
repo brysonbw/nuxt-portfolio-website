@@ -1,1 +1,9 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# ### Next Portfolio Website & Blog
+
+## (Built With) Technologies & Frameworks
+- Next
+- React
+- Tailwind CSS
+- JavaScript
+- HTML
+- CSS
