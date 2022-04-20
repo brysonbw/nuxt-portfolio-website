@@ -10,13 +10,14 @@ const name = "Hey, I'm Bryson"
 const position = "a full stack engineer"
 export const siteTitle = "DevBryson"
 
-export default function Layout({ children, home, portfolio }) {
+export default function Layout({ children, home }) {
   return (
     <>
     <Navbar />
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/bryson-avatar.ico" />
+        <link rel="apple-touch-icon" href="/bryson-avatar.ico" />
         <meta
           name="description"
           content="DevBryson"
