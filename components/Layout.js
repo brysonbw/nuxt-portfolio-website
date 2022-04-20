@@ -24,7 +24,7 @@ export default function Layout({ children, home, portfolio }) {
          
         <meta
           property="og:image"
-          content={'/images/bryson-avatar.jpg'}
+          content={'/images/bryson-avatar-square.jpg'}
         />
   
         <meta name="og:title" content={siteTitle} />

@@ -40,7 +40,7 @@ export default function Home({ allPostsData }) {
             Follow me online
         </p>
         <p>
-            <a href='www.discordapp.com/users/805262289119739924'>Discord</a>
+            <a href='https://discordapp.com/users/805262289119739924'>Discord</a>
         </p>
         <p>
             <a href='https://github.com/brysonbw'>Github</a>

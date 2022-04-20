@@ -4,7 +4,7 @@ date: '2022-04-19'
 ---
 
 
-Sharing some Discord servers I've joined - good for hanging out or asking questions :). 
+Sharing some Discord servers - good for hanging out or asking questions :). 
 
 ## General 
  [The Coding Den](https://discord.gg/code)
