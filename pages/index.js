@@ -30,7 +30,7 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle} | Home</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>I'm a full stack engineer who enjoys tinkering with tech and software. I primarily create, design, and build full stack web and mobile applications. I'm always looking to learn, discovery new technologies, and challenge myself to solve real-world problems. And most importantly create the change I want to see in the world :)</p>
+        <p>I'm a full stack engineer who enjoys all things tech and software. I primarily create, design, and build full stack web and mobile applications. I love learning and discovering new technologies, and challenging myself to solve real-world problems. And most importantly creating the change I want to see in the world :)</p>
         <p className='mt-4'>
           <Link href='/portfolio'>
             <a>Portfolio: Skills & Projects</a>
