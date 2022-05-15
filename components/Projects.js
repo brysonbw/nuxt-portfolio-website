@@ -16,14 +16,14 @@ export default function Projects() {
          <div
             className="w-full sm:w-3/4 lg:w-full mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-10 pt-2">
        <div className='transition  ease-in-out  hover:scale-105 duration-300 mt-7'>
-       <a href="https://www.devio.app/"
+       <a href="https://devlink-sbs.vercel.app/"
               className="mx-auto md:mx-0">
-               <Image src='/images/devio-app.jpg'
+               <Image src='/images/dev-link-home.jpg'
                     width={1240}
                     height={620}
                     
                    layout="responsive"
-                    alt="devio-app-preview-img" />
+                    alt="dev-link-app-preview-img" />
            </a>
        </div>
                  
