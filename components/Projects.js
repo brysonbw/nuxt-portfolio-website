@@ -26,6 +26,18 @@ export default function Projects() {
                     alt="dev-link-app-preview-img" />
            </a>
        </div>
+
+
+       <div className='transition  ease-in-out  hover:scale-105 duration-300 mt-7'>
+           <a href="https://truthy-sbs.web.app/"
+              className="mx-auto md:mx-0 ">
+               <img src='/images/truthy-app.jpg'
+                   width={1240}
+                   height={620}
+                  layout="responsive"
+                    alt="truthy-app-preview-img" />
+           </a>
+           </div>
                  
 
        <div className='transition  ease-in-out  hover:scale-105 duration-300 mt-7'>
@@ -39,17 +51,6 @@ export default function Projects() {
            </a>
                 </div>
                 
-
-                <div className='transition  ease-in-out  hover:scale-105 duration-300 mt-7'>
-           <a href="https://my-running-log.netlify.app/"
-              className="mx-auto md:mx-0 ">
-               <img src='/images/my-running-log-app.jpg'
-                   width={1240}
-                   height={620}
-                  layout="responsive"
-                    alt="my-running-log-app-preview-img" />
-           </a>
-           </div>
 
 
            <div className='transition  ease-in-out  hover:scale-105 duration-300 mt-7'>
