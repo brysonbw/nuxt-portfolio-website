@@ -1,9 +1,10 @@
-# Next Portfolio Website & Blog
-
-## (Built With) Technologies & Frameworks
-- Next
-- React
-- Tailwind CSS
-- JavaScript
+# Svelte Portfolio Website & Markdown Blog
+- Svelte/Sveltekit
 - HTML
-- CSS
+- Tailwind
+- Typescript
+
+## Cloning and using as a template
+Feel free to clone, fork, or download to customize and use for your own portfolio website & markdown blog
+
+
