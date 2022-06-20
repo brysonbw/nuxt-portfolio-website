@@ -8,7 +8,7 @@ date: '2022-04-19'
 </svelte:head>
 
 
-<h1 clas="3xl">{title}</h1> 
+<h1 class="headingLg">{title}</h1> 
 <small class="lightText">{new Date(date).toDateString()}</small><br /><br />
 
 
@@ -75,6 +75,12 @@ The Discord is super active and even the creator of Anchor, Armani Ferrante.
  .lightText {
     color: #666;
     margin-bottom: 1rem;
+  }
+
+  .headingLg {
+    font-size: 2rem;
+    line-height: 1.4;
+    margin: 1rem 0;
   }
 
       </style>
