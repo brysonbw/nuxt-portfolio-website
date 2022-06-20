@@ -8,11 +8,11 @@ date: '2022-04-19'
 </svelte:head>
 
 
-# {title}
-<small>{new Date(date).toDateString()}</small>
+<h1 clas="3xl">{title}</h1> 
+<small class="lightText">{new Date(date).toDateString()}</small><br /><br />
 
 
-Sharing some Discord servers - good for hanging out or asking questions :).
+Sharing some Discord servers - good for hanging out or asking questions :). If you know any other good discords servers feel free to reach and let me know [my discord](https://discordapp.com/users/805262289119739924) <br /><br />
 
 
 ## General 
@@ -72,5 +72,9 @@ The Discord is super active and even the creator of Anchor, Armani Ferrante.
    
   }
  
+ .lightText {
+    color: #666;
+    margin-bottom: 1rem;
+  }
 
       </style>
