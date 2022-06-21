@@ -9,7 +9,7 @@ date: '2022-04-19'
 
 
 <h1 class="headingLg">{title}</h1> 
-<small class="lightText">{new Date(date).toDateString()}</small><br /><br />
+<small class="lightText">April 19, 2022</small><br /><br />
 
 
 Sharing some Discord servers - good for hanging out or asking questions :). If you know any other good discords servers feel free to reach and let me know [my discord](https://discordapp.com/users/805262289119739924) <br /><br />
@@ -35,7 +35,9 @@ He's truly the GOAT (Greatest Of All Time) hahaha. Also, he has a Youtube channe
 Really good server for cs students out there.<br /><br />
 
 ## Electron 
- [electronjs.org](https://discord.gg/csmajors)<br /><br />
+ [electronjs.org](https://discord.gg/csmajors)
+
+ Electron is the most popular and most used framework for cross-platform applications. The docs are good but not much other resources out there, yet this discord is good to ask questions and possibly find collaborators. <br /><br />
 
 ## Rust 
 [The Rust Programming Language](https://discord.gg/n2dSXhm4Kh)
