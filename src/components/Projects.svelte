@@ -7,8 +7,10 @@
     import chatboard from '../components/images/chatboard.jpg'
 import vscodeSCS from '../components/images/vscode-scs.jpg'
 import solana from '../components/images/solana-logo.jpg'
+import nextLg from '../components/images/nextjs-lg.jpg'
+import socketio from '../components/images/socketio.jpg'
 import { devIcons } from '../utils/devIcons';
-
+import expressLg from '../components/images/express-lg.jpg'
 </script>
 
 <div>
@@ -39,7 +41,7 @@ import { devIcons } from '../utils/devIcons';
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-300">A tool to help developers share their skills, social profile links, website portfolio, and more with just one link.</p>
             <div class="flex flex-wrap gap-2">
               <!-- devIcons -->
-              <img alt="next-js" class="w-8 h-8" src={devIcons.next} />
+              <img alt="next-js" class="w-8 h-8" src={nextLg} />
               <img alt="react-js" class="w-8 h-8" src={devIcons.react} />
               <img alt="tailwind" class="w-8 h-8" src={devIcons.tailwindCss} />
               <img alt="supabase" class="w-8 h-8 " src={supabase} />
@@ -104,8 +106,8 @@ import { devIcons } from '../utils/devIcons';
 <img alt="react-js" class="w-8 h-8" src={devIcons.react} />
 <img alt="tailwind" class="w-8 h-8" src={devIcons.tailwindCss} />
 <img alt="node" class="w-8 h-8" src={devIcons.node} />
-<img alt="express" class="w-8 h-8" src={devIcons.express} />
-<img alt="socketio" class="w-8 h-8" src={devIcons.socketio} />
+<img alt="express" class="w-8 h-8" src={expressLg} />
+<img alt="socketio" class="w-8 h-8" src={socketio} />
 <img alt="mongoDB" class="w-8 h-8" src={devIcons.mongoDB} />
 <img alt="html" class="w-8 h-8" src={devIcons.html} />
 <img alt="css" class="w-8 h-8" src={devIcons.css} />
@@ -191,7 +193,7 @@ import { devIcons } from '../utils/devIcons';
               <p class="mb-3 font-normal text-gray-700 dark:text-gray-300">Anonymous users can input pubKey and read their SOL balance.</p>
               <div class="flex flex-wrap gap-2">
               <!-- devIcons -->
-              <img alt="next-js" class="w-8 h-8" src={devIcons.next} />
+              <img alt="next-js" class="w-8 h-8" src={nextLg} />
               <img alt="react-js" class="w-8 h-8" src={devIcons.react} />
               <img alt="tailwind" class="w-8 h-8" src={devIcons.tailwindCss} />
               <img alt="html" class="w-8 h-8" src={devIcons.html} />
