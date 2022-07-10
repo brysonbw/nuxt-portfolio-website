@@ -1,5 +1,6 @@
 <script lang="ts">
-   
+   import nextLg from '../components/images/nextjs-lg.jpg'
+   import express from '../components/images/express.jpg'
 </script>
 
 <div>
@@ -62,16 +63,16 @@
            height={50}
    
            alt="next" 
-           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+           src={nextLg}
            />
         </div>  
             
                <img
-               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" 
+               src={express}
                alt="express"
            width={50}
            height={50}
-           class="text-white text-5xl"
+           
            />
            </div>
            </div>
