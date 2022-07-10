@@ -22,7 +22,7 @@ import { devIcons } from '../utils/devIcons';
                class="w-full sm:w-3/4 lg:w-full mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-10 pt-2">
 
                <!-- Card -->
-               <div class="max-w-sm transition  ease-in-out  hover:scale-105 duration-300 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-none dark:border-[#2b2b2bc5]">
+               <div class="max-w-sm transition  ease-in-out  hover:scale-105 duration-300 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-[#171717] dark:border-[#2b2b2bc5]">
                 <div
                  class="mx-auto md:mx-0">
                   <img src={devLink}
@@ -53,7 +53,7 @@ import { devIcons } from '../utils/devIcons';
           <!-- End Card -->
 
 <!-- Card -->
-<div class="max-w-sm transition  ease-in-out  hover:scale-105 duration-300 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-none dark:border-[#2b2b2bc5]">
+<div class="max-w-sm transition  ease-in-out  hover:scale-105 duration-300 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-[#171717] dark:border-[#2b2b2bc5]">
   <div
    class="mx-auto md:mx-0">
     <img src={itunesSongSearch}
@@ -84,7 +84,7 @@ import { devIcons } from '../utils/devIcons';
                     
    
           <!-- Card -->
-<div class="max-w-sm transition  ease-in-out  hover:scale-105 duration-300 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-none dark:border-[#2b2b2bc5]">
+<div class="max-w-sm transition  ease-in-out  hover:scale-105 duration-300 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-[#171717] dark:border-[#2b2b2bc5]">
   <div
    class="mx-auto md:mx-0">
     <img src={animeSocialChat}
@@ -119,7 +119,7 @@ import { devIcons } from '../utils/devIcons';
    
    
              <!-- Card -->
-  <div class="max-w-sm transition  ease-in-out  hover:scale-105 duration-300 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-none dark:border-[#2b2b2bc5]">
+  <div class="max-w-sm transition  ease-in-out  hover:scale-105 duration-300 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-[#171717] dark:border-[#2b2b2bc5]">
   <div
    class="mx-auto md:mx-0">
     <img src={chatboard}
@@ -149,7 +149,7 @@ import { devIcons } from '../utils/devIcons';
 
 
              <!-- Card -->
-             <div class="max-w-sm transition  ease-in-out  hover:scale-105 duration-300 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-none dark:border-[#2b2b2bc5]">
+             <div class="max-w-sm transition  ease-in-out  hover:scale-105 duration-300 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-[#171717] dark:border-[#2b2b2bc5]">
               <div
                class="mx-auto md:mx-0">
                 <img src={vscodeSCS}
@@ -174,7 +174,7 @@ import { devIcons } from '../utils/devIcons';
                    
 
               <!-- Card -->
-              <div class="max-w-sm transition  ease-in-out  hover:scale-105 duration-300 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-none dark:border-[#2b2b2bc5]">
+              <div class="max-w-sm transition  ease-in-out  hover:scale-105 duration-300 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-[#171717] dark:border-[#2b2b2bc5]">
                 <div
                  class="mx-auto md:mx-0">
                   <img src={solanaBalanceChecker}
