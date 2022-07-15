@@ -5,12 +5,13 @@
     import animeSocialChat from '../components/images/anime-social-chat.jpg'
     import supabase from '../components/images/supabase-logo.jpg'
     import chatboard from '../components/images/chatboard.jpg'
-import vscodeSCS from '../components/images/vscode-scs.jpg'
+//import vscodeSCS from '../components/images/vscode-scs.jpg'
 import solana from '../components/images/solana-logo.jpg'
 import nextLg from '../components/images/nextjs-lg.jpg'
 import socketio from '../components/images/socketio.jpg'
 import { devIcons } from '../utils/devIcons';
 import expressLg from '../components/images/express-lg.jpg'
+import jotDown from '../components/images/vscode-jot-down.jpg'
 </script>
 
 <div>
@@ -147,33 +148,43 @@ import expressLg from '../components/images/express-lg.jpg'
 </div>
 </div>
 <!-- End Card -->
-                   
+                  
 
 
-             <!-- Card -->
-             <div class="max-w-sm transition  ease-in-out  hover:scale-105 duration-300 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-[#171717] dark:border-[#2b2b2bc5]">
-              <div
-               class="mx-auto md:mx-0">
-                <img src={vscodeSCS}
-                     width={1240}
-                     height={620}
-                     class="rounded-t-lg"
-                   
-                     alt="vscode-svelte-component-snippets-img" />
-                    </div>
-            <div class="p-3">
-            <a  class="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white" href="https://marketplace.visualstudio.com/items?itemName=brysonbw.svelte-component-snippets">
-              Svelte Component Snippets
-            </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-300">Visual Studio Code Extension for adding Svelte Component Snippets.</p>
-            <div class="flex flex-wrap gap-2">
-            <!-- devIcons -->
-            <img alt="vscode" class="w-8 h-8" src={devIcons.vscode} />
-            </div>
-            </div>
-            </div>
-            <!-- End Card -->
-                   
+
+ <!-- Card -->
+ <div class="max-w-sm transition  ease-in-out  hover:scale-105 duration-300 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-[#171717] dark:border-[#2b2b2bc5]">
+  <div
+   class="mx-auto md:mx-0">
+    <img src={jotDown}
+         width={1240}
+         height={620}
+         class="rounded-t-lg"
+       
+         alt="vscode-jot-down-preview-img" />
+        </div>
+<div class="p-3">
+<a  class="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white" href="https://marketplace.visualstudio.com/items?itemName=brysonbw.jot-down">
+  Jot Down
+</a>
+<p class="mb-3 font-normal text-gray-700 dark:text-gray-300">A Visual Studio Code Extension for quick and simple note taking.</p>
+<div class="flex flex-wrap gap-2">
+<!-- devIcons -->
+<img alt="vscode" class="w-8 h-8" src={devIcons.vscode} />
+<img alt="svelte" class="w-8 h-8" src={devIcons.svelte} />
+<img alt="node" class="w-8 h-8" src={devIcons.node} />
+<img alt="express" class="w-8 h-8" src={expressLg} />
+<img alt="html" class="w-8 h-8" src={devIcons.html} />
+<img alt="css" class="w-8 h-8" src={devIcons.css} />
+<img alt="javascript" class="w-8 h-8" src={devIcons.javascript} />
+<img alt="typescript" class="w-8 h-8" src={devIcons.typescript} />
+</div>
+</div>
+</div>
+<!-- End Card -->
+
+
+            
 
               <!-- Card -->
               <div class="max-w-sm transition  ease-in-out  hover:scale-105 duration-300 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-[#171717] dark:border-[#2b2b2bc5]">
@@ -205,6 +216,8 @@ import expressLg from '../components/images/express-lg.jpg'
               </div>
               </div>
               <!-- End Card -->
+            
+             
             
 
               </div>
