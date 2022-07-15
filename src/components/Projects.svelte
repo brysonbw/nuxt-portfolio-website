@@ -5,13 +5,12 @@
     import animeSocialChat from '../components/images/anime-social-chat.jpg'
     import supabase from '../components/images/supabase-logo.jpg'
     import chatboard from '../components/images/chatboard.jpg'
-//import vscodeSCS from '../components/images/vscode-scs.jpg'
 import solana from '../components/images/solana-logo.jpg'
 import nextLg from '../components/images/nextjs-lg.jpg'
 import socketio from '../components/images/socketio.jpg'
 import { devIcons } from '../utils/devIcons';
 import expressLg from '../components/images/express-lg.jpg'
-import jotDown from '../components/images/vscode-jot-down.jpg'
+import jotDownVscode from '../components/images/vscode-jot-down.jpg'
 </script>
 
 <div>
@@ -156,7 +155,7 @@ import jotDown from '../components/images/vscode-jot-down.jpg'
  <div class="max-w-sm transition  ease-in-out  hover:scale-105 duration-300 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-[#171717] dark:border-[#2b2b2bc5]">
   <div
    class="mx-auto md:mx-0">
-    <img src={jotDown}
+    <img src={jotDownVscode}
          width={1240}
          height={620}
          class="rounded-t-lg"
