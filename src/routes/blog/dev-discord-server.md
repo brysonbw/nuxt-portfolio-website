@@ -37,7 +37,7 @@ Really good server for cs students out there.<br /><br />
 ## Electron 
  [electronjs.org](https://discord.gg/csmajors)
 
- Electron is the most popular and most used framework for cross-platform applications. The docs are good but not much other resources out there, yet this discord is good to ask questions and possibly find collaborators. <br /><br />
+ Electron is the most popular and most used framework for cross-platform desktop applications. The docs are good but not much other resources out there, yet this discord is good to ask questions and possibly find collaborators. <br /><br />
 
 ## Rust 
 [The Rust Programming Language](https://discord.gg/n2dSXhm4Kh)

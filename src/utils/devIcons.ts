@@ -11,4 +11,6 @@ export const devIcons = {
     rust: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg',
     svelte: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg',
     vscode: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg',
+    django: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg",
+    python: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg'
 }
