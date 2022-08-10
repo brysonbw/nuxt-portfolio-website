@@ -46,7 +46,7 @@
    
    <!-- Backend-->
                <div class="flex flex-col sm:flex-row justify-center mt-2">
-               <div class="mb-1 flex items-center justify-center sm:justify-start">
+               <div class="mb-1  flex items-center justify-center sm:justify-start">
                <div class='mr-3'>
                <img 
            width={50}
@@ -110,7 +110,16 @@
            />
                </div>
                </div>
+                
                </div>
+
+               <!-- django -->
+               <div class="text-center pt-4">
+                <i 
+               class="dj devicon-django-plain"
+               ></i>
+               </div>
+               
    
                
 </div>
@@ -122,5 +131,10 @@
     font-weight: 800;
     letter-spacing: -0.05rem;
     margin: 1rem 0;
+  }
+
+  .dj {
+    font-size: 2rem;
+    color: #44B78B;
   }
 </style>

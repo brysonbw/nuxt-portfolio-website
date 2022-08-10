@@ -10,6 +10,8 @@ import avatarImage from '../components/images/bryson-avatar.jpg'
 
 <svelte:head>
 	<title>DevBryson | Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+          
 </svelte:head>
 
 
