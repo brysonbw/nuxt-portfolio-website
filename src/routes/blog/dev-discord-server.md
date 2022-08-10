@@ -1,5 +1,5 @@
 ---
-title: 'My favorite Discord servers (for devs)'
+title: 'My Favorite Discord Servers'
 date: '2022-04-19'
 ---
 
