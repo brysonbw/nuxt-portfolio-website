@@ -3,7 +3,7 @@ import Contact from "../components/Contact.svelte";
 import Github from "../components/Github.svelte";
 import Projects from "../components/Projects.svelte";
 import TechStack from "../components/TechStack.svelte";
-import Web3 from "../components/Web3.svelte";
+//import Web3 from "../components/Web3.svelte";
 import Languages from "../components/Languages.svelte";
 import avatarImage from '../components/images/bryson-avatar.jpg'
 </script>
@@ -33,7 +33,7 @@ import avatarImage from '../components/images/bryson-avatar.jpg'
      <!-- Tech Stack --->
      <TechStack />
       <!-- Web3 --->
-      <Web3 />
+     <!--  <Web3 /> -->
        <!-- Projects --->
        <Projects />
        <!-- Github --->

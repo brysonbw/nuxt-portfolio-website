@@ -1,12 +1,13 @@
 <script lang="ts">
     import devLink from '../components/images/dev-link-home.jpg'
-    import solanaBalanceChecker from '../components/images/solana-balance-checker.jpg'
+   // import solanaBalanceChecker from '../components/images/solana-balance-checker.jpg'
     import itunesSongSearch from '../components/images/itunes-artist-song-search .jpg'
     import animeSocialChat from '../components/images/anime-social-chat.jpg'
     import supabase from '../components/images/supabase-logo.jpg'
+    import gogoPikachu from '../components/images/gogo-pikachu.png'
     import chatboard from '../components/images/chatboard.jpg'
     import etrack from '../components/images/e-track.png'
-import solana from '../components/images/solana-logo.jpg'
+//import solana from '../components/images/solana-logo.jpg'
 import nextLg from '../components/images/nextjs-lg.jpg'
 import socketio from '../components/images/socketio.jpg'
 import { devIcons } from '../utils/devIcons';
@@ -17,7 +18,7 @@ import jotDownVscode from '../components/images/vscode-jot-down.jpg'
 <div>
     <header class='header text-center mt-20'>
         <h1 class="heading2XlPortfolio">Projects</h1>
-        <h1 class='headingMdProject'>  These are some of my projects, apps, & dapps</h1>
+        <h1 class='headingMdProject'>  These are some of my projects, apps, & games</h1>
             </header>
            <!--Projects-->
             <div class="container mx-auto px-5">
@@ -72,7 +73,7 @@ import jotDownVscode from '../components/images/vscode-jot-down.jpg'
   <a  class="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white" href="https://etrack-io.herokuapp.com/">
    E-Track
   </a>
-  <p class="mb-3 font-normal text-gray-700 dark:text-gray-300">An employee management system. Features: user login/signup (authentication and authorization), password reset, CRUD employee records, pagination, export/download CSV file of employee records/lists.</p>
+  <p class="mb-3 font-normal text-gray-700 dark:text-gray-300">An employee management system: keep track, log, and download/export CSV files of your employees.</p>
   <div class="flex flex-wrap gap-2">
   <!-- devIcons -->
   <i alt="django" class="dj w-8 h-8 devicon-django-plain" ></i>
@@ -85,7 +86,8 @@ import jotDownVscode from '../components/images/vscode-jot-down.jpg'
   </div>
   <!-- End Card -->
 
-                    
+   
+  
    
           <!-- Card -->
 <div class="max-w-sm transition  ease-in-out  hover:scale-105 duration-300 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-[#171717] dark:border-[#2b2b2bc5]">
@@ -136,7 +138,7 @@ import jotDownVscode from '../components/images/vscode-jot-down.jpg'
 <a  class="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white" href="https://marketplace.visualstudio.com/items?itemName=brysonbw.jot-down">
   Jot Down
 </a>
-<p class="mb-3 font-normal text-gray-700 dark:text-gray-300">A Visual Studio Code Extension for quick and simple note taking. API/server for extension written in node/express using 'passport-github' for authenticating with GitHub, and postgreSQL database.</p>
+<p class="mb-3 font-normal text-gray-700 dark:text-gray-300">A Visual Studio Code Extension for quick and simple note taking.</p>
 <div class="flex flex-wrap gap-2">
 <!-- devIcons -->
 <img alt="vscode" class="w-8 h-8" src={devIcons.vscode} />
@@ -155,25 +157,49 @@ import jotDownVscode from '../components/images/vscode-jot-down.jpg'
    
 
 <!-- Card -->
+<div class="max-w-sm transition  ease-in-out  hover:scale-105 duration-300 bg-white  rounded-lg border border-gray-200 shadow-md dark:bg-[#171717] dark:border-[#2b2b2bc5]">
+  <div
+   class="mx-auto bg-black rounded-t-lg  md:mx-0">
+    <img src={gogoPikachu}
+         class="rounded-t-lg w-full h-[7.2rem] object-scale-down"
+         alt="gogo-pikachu-preview-img" />
+        </div>
+<div class="p-3">
+<a  class="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white" href="https://gogo-pikachu.vercel.app/">
+  GoGo Pikachu
+</a>
+<p class="mb-3 font-normal text-gray-700 dark:text-gray-300">A 2D Phaser HTML5 Platform Game. Collect Thunder Stones to level up Pikachu!</p>
+<div class="flex flex-wrap gap-2">
+<!-- devIcons -->
+<img alt="vscode" class="w-8 h-8" src='https://raw.githubusercontent.com/photonstorm/phaser/v2.6.2/resources/Phaser%20Logo/PNG/Phaser%20Logo%20Web%20Quality.png' />
+<img alt="html" class="w-8 h-8" src={devIcons.html} />
+<img alt="css" class="w-8 h-8" src={devIcons.css} />
+<img alt="javascript" class="w-8 h-8" src={devIcons.javascript} />
+</div>
+</div>
+</div>
+<!-- End Card -->
+
+
+<!-- Card -->
 <div class="max-w-sm transition  ease-in-out  hover:scale-105 duration-300 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-[#171717] dark:border-[#2b2b2bc5]">
   <div
    class="mx-auto md:mx-0">
-    <img src={itunesSongSearch}
+    <img src={chatboard}
          width={1240}
          height={620}
          class="rounded-t-lg"
        
-         alt="itunes-song-search-app-preview-img" />
+         alt="chatboard-app-preview-img" />
         </div>
 <div class="p-3">
-<a  class="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white" href="https://itunes-artist-song-search.vercel.app/">
-  iTunes Artist Song Search
+<a  class="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white" href="https://chatboard-video-chat-meeting-manager.vercel.app/">
+  Chatboard: Video Chat Meeting Manager
 </a>
-<p class="mb-1 font-normal text-gray-700 dark:text-gray-300">Anonymous users can read/search 50 artist's songs, read detailed song, and play song preview.</p>
-<div class="mb-3"><a href="https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/index.html#//apple_ref/doc/uid/TP40017632-CH3-SW1" class="mb-3 font-normal text-gray-700 dark:text-gray-300">API: iTunes Search API</a></div>
+<p class="mb-1 font-normal text-gray-700 dark:text-gray-300">Manage your video chat conferences. Anonymous users can create, read, update, and delete meetings.</p>
 <div class="flex flex-wrap gap-2">
 <!-- devIcons -->
-<img alt="svelte" class="w-8 h-8" src={devIcons.svelte} />
+<img alt="react-js" class="w-8 h-8" src={devIcons.react} />
 <img alt="tailwind" class="w-8 h-8" src={devIcons.tailwindCss} />
 <img alt="html" class="w-8 h-8" src={devIcons.html} />
 <img alt="css" class="w-8 h-8" src={devIcons.css} />
@@ -186,7 +212,8 @@ import jotDownVscode from '../components/images/vscode-jot-down.jpg'
 
 
           
-              <!-- Card -->
+               <!--  
+                Card 
               <div class="max-w-sm transition  ease-in-out  hover:scale-105 duration-300 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-[#171717] dark:border-[#2b2b2bc5]">
                 <div
                  class="mx-auto md:mx-0">
@@ -203,7 +230,7 @@ import jotDownVscode from '../components/images/vscode-jot-down.jpg'
               </a>
               <p class="mb-3 font-normal text-gray-700 dark:text-gray-300">Anonymous users can input pubKey and read their SOL balance.</p>
               <div class="flex flex-wrap gap-2">
-              <!-- devIcons -->
+               devIcons 
               <img alt="next-js" class="w-8 h-8" src={nextLg} />
               <img alt="react-js" class="w-8 h-8" src={devIcons.react} />
               <img alt="tailwind" class="w-8 h-8" src={devIcons.tailwindCss} />
@@ -215,7 +242,7 @@ import jotDownVscode from '../components/images/vscode-jot-down.jpg'
               </div>
               </div>
               </div>
-              <!-- End Card -->
+               End Card -->
                     
 
               </div>
