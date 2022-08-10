@@ -7,7 +7,7 @@
     <header class='header text-center mt-20'>
         <h1 class='heading2Xl'>Web3/Blockchain</h1>
             </header>
-            <!--Wen3-->
+            <!--Web3-->
             <div class="flex flex-col sm:flex-row ml-[1rem] justify-center">
    
                <div class="flex items-center justify-center sm:justify-start">

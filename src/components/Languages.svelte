@@ -36,19 +36,7 @@
           alt="typescript" 
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" 
           />
-   </div> 
-
-        <!-- Rust      
-        <div class='pr-[.7em] pl-[1em]'>
-            <img 
-           width={50}
-           height={50}
-            alt="typescript" 
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg"
-            />
-     </div>
-    ---> 
-              
+   </div>    
               
    
               <div class='pr-[.7em] pl-[1em]'>
