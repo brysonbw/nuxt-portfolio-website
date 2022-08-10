@@ -15,11 +15,8 @@ date: '2022-08-09'
 Here is one VSCode theme I use and recommend you should try.<br /><br />
 
 ## [City Lights theme](https://marketplace.visualstudio.com/items?itemName=Yummygum.city-lights-theme)
-<br />
-
 I like this theme because it's easy on the eyes, both during the day and especially at night. I customized the comments and strings color, which can be done in your user [settings](https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme).
-
-
+<br /><br />
 Here are my configurations, but you can customize the color theme however you like or keep the default color/settings.
 
 ```
@@ -29,7 +26,7 @@ Here are my configurations, but you can customize the color theme however you li
       "strings": "#7bacda"
     }
   },
-  "workbench.colorTheme": "City Lights",
+  "workbench.colorTheme": "City Lights"
 ```
 <br /><br />
 
