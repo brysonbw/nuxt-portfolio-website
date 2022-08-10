@@ -46,7 +46,7 @@
           </header>
 
 {#each posts as post}
-  <h2>
+  <h2 class="mt-3">
     <a href={post.path}>
       {post.meta?.title}
     </a>
