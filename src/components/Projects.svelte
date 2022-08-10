@@ -223,7 +223,7 @@ import jotDownVscode from '../components/images/vscode-jot-down.jpg'
           
 </div>
 
-<div class="text-center pt-8 text-lg"><a href="https://github.com/search?q=user%3Abrysonbw&type=Repositories&ref=advsearch&l=&l=">View more projects</a></div> 
+<div class="text-center pt-8 text-lg"><a href="https://github.com/search?l=&o=desc&q=user%3Abrysonbw&s=updated&type=Repositories">View more projects</a></div> 
 
 <style>
    .heading2XlPortfolio {
