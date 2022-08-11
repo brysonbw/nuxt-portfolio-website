@@ -9,7 +9,7 @@ date: '2022-08-09'
 
 
 <h1 class="headingLg">{title}</h1> 
-<small class="lightText">August 08, 2022</small><br /><br />
+<small class="lightText">August 09, 2022</small><br /><br />
 
 
 Here is one VSCode theme I use and recommend you should try.<br /><br />
