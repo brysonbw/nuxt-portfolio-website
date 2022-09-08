@@ -75,7 +75,7 @@ import jotDownVscode from '../components/images/vscode-jot-down.jpg'
 </a>
 <p class="mb-1 font-normal text-gray-700 dark:text-gray-300">A social news/network mobile app focusing on computer science and entrepreneurship.
 <br />
-  <a class="font-normal text-gray-700 dark:text-gray-300 underline hover:no-underline" href="https://play.google.com/store/apps/details?id=com.technoiseio.technoise">Download on Google Play</a>
+  <a class="font-normal text-gray-700 dark:text-gray-300 underline hover:no-underline" href="https://play.google.com/store/apps/details?id=com.technoiseio.technoise">Download on Google Play Store</a>
 </p>
 <div class="flex flex-wrap gap-2">
 <!-- devIcons -->
