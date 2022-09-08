@@ -113,13 +113,26 @@
                 
                </div>
 
-               <!-- django -->
-               <div class="text-center pt-4">
+               <div class="flex flex-col sm:flex-row justify-center mt-4 ml-3">
+                <div class="flex items-center justify-center sm:justify-start">
+                      <!-- django -->
+               <div class="mr-3">
                 <i 
                class="dj devicon-django-plain"
                ></i>
                </div>
-               
+
+               <!-- Firebase -->
+               <div class=" ">
+                <i 
+               class="fb devicon-firebase-plain colored"
+               ></i>
+               </div>
+
+                    </div>
+                    </div>
+
+             
    
                
 </div>
@@ -136,5 +149,10 @@
   .dj {
     font-size: 2rem;
     color: #44B78B;
+  }
+
+  .fb {
+    font-size: 2rem;
+    color: #F3C72E; 
   }
 </style>
