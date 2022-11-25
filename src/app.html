@@ -22,7 +22,21 @@
 <meta property="twitter:image" content="https://res.cloudinary.com/ddlhtsgmp/image/upload/v1655851213/portfolio-site-img_bkoiaj.png">
 		%sveltekit.head%
 	</head>
+
+	<script>
+		if (document) {
+			let mode = localStorage.theme || 'light';
+			if (mode === 'dark' || window.matchMedia('(prefers-color-scheme: dark)').matches) {
+				document.documentElement.classList.add('dark');
+				localStorage.theme = 'dark';
+			} else {
+				document.documentElement.classList.remove('dark');
+				localStorage.theme = 'light';
+			}
+		}
+	</script>
+
 	<body>
-		<div>%sveltekit.body%</div>
+		<div style="display: contents">%sveltekit.body%</div>
 	</body>
 </html>
