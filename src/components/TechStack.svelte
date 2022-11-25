@@ -115,12 +115,7 @@
 
                <div class="flex flex-col sm:flex-row justify-center mt-4 ml-3">
                 <div class="flex items-center justify-center sm:justify-start">
-                      <!-- django -->
-               <div class="mr-3">
-                <i 
-               class="dj devicon-django-plain"
-               ></i>
-               </div>
+                  
 
                <!-- Firebase -->
                <div class=" ">
@@ -146,10 +141,6 @@
     margin: 1rem 0;
   }
 
-  .dj {
-    font-size: 2rem;
-    color: #44B78B;
-  }
 
   .fb {
     font-size: 2rem;

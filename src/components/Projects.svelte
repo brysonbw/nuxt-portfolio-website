@@ -1,13 +1,7 @@
 <script lang="ts">
-    import devLink from '../components/images/dev-link-home.jpg'
-   // import solanaBalanceChecker from '../components/images/solana-balance-checker.jpg'
-    import itunesSongSearch from '../components/images/itunes-artist-song-search .jpg'
-    import animeSocialChat from '../components/images/anime-social-chat.jpg'
-    import supabase from '../components/images/supabase-logo.jpg'
-    import gogoPikachu from '../components/images/gogo-pikachu.png'
-    import chatboard from '../components/images/chatboard.jpg'
-    import etrack from '../components/images/e-track.png'
-//import solana from '../components/images/solana-logo.jpg'
+import devLink from '../components/images/dev-link-home.jpg'
+import supabase from '../components/images/supabase-logo.jpg'
+import gogoPikachu from '../components/images/gogo-pikachu.png'
 import techNoise from '../components/images/tn-landing.png'
 import nextLg from '../components/images/nextjs-lg.jpg'
 import socketio from '../components/images/socketio.jpg'
@@ -92,71 +86,6 @@ class="fb devicon-firebase-plain colored"
 </div>
 <!-- End Card -->
    
-  
-   
-          <!-- Card -->
-<div class="max-w-sm transition  ease-in-out  hover:scale-105 duration-300 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-[#171717] dark:border-[#2b2b2bc5]">
-  <div
-   class="mx-auto md:mx-0">
-    <img src={animeSocialChat}
-         width={1240}
-         height={620}
-         class="rounded-t-lg"
-       
-         alt="anime-social-chat-preview-img" />
-        </div>
-<div class="p-3">
-<a  class="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white" href="https://anime-social-chat.herokuapp.com/">
-  Anime Real-Time Public Social Chat Room
-</a>
-<p class="mb-3 font-normal text-gray-700 dark:text-gray-300">Chat with other anime enthusiasts. Anonymous users can create and read real-time messages.</p>
-<div class="flex flex-wrap gap-2">
-<!-- devIcons -->
-<img alt="react-js" class="w-8 h-8" src={devIcons.react} />
-<img alt="tailwind" class="w-8 h-8" src={devIcons.tailwindCss} />
-<img alt="node" class="w-8 h-8" src={devIcons.node} />
-<img alt="express" class="w-8 h-8" src={expressLg} />
-<img alt="socketio" class="w-8 h-8" src={socketio} />
-<img alt="mongoDB" class="w-8 h-8" src={devIcons.mongoDB} />
-<img alt="html" class="w-8 h-8" src={devIcons.html} />
-<img alt="css" class="w-8 h-8" src={devIcons.css} />
-<img alt="javascript" class="w-8 h-8" src={devIcons.javascript} />
-<img alt="typescript" class="w-8 h-8" src={devIcons.typescript} />
-</div>
-</div>
-</div>
-<!-- End Card -->
-                   
-
-       <!-- Card -->
-       <div class="max-w-sm transition  ease-in-out  hover:scale-105 duration-300 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-[#171717] dark:border-[#2b2b2bc5]">
-        <div
-         class="mx-auto md:mx-0">
-          <img src={etrack}
-               width={1240}
-               height={620}
-               class="rounded-t-lg"
-             
-               alt="etrack-preview-img" />
-              </div>
-      <div class="p-3">
-      <a  class="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white" href="https://etrack-io.herokuapp.com/">
-       E-Track
-      </a>
-      <p class="mb-3 font-normal text-gray-700 dark:text-gray-300">An employee management system: keep track, log, and download/export CSV files of your employees.</p>
-      <div class="flex flex-wrap gap-2">
-      <!-- devIcons -->
-      <i alt="django" class="dj w-8 h-8 devicon-django-plain" ></i>
-      <img alt="postgreSQL" class="w-8 h-8" src={devIcons.postgres} />
-      <img alt="html" class="w-8 h-8" src={devIcons.html} />
-      <img alt="css" class="w-8 h-8" src={devIcons.css} />
-      <img alt="python" class="w-8 h-8" src={devIcons.python} />
-      </div>
-      </div>
-      </div>
-      <!-- End Card -->
-    
-
 <!-- Card -->
 <div class="max-w-sm transition  ease-in-out  hover:scale-105 duration-300 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-[#171717] dark:border-[#2b2b2bc5]">
   <div
@@ -212,46 +141,7 @@ class="fb devicon-firebase-plain colored"
 </div>
 </div>
 </div>
-<!-- End Card -->
-
-
-
-
-
-          
-               <!--  
-                Card 
-              <div class="max-w-sm transition  ease-in-out  hover:scale-105 duration-300 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-[#171717] dark:border-[#2b2b2bc5]">
-                <div
-                 class="mx-auto md:mx-0">
-                  <img src={solanaBalanceChecker}
-                       width={1240}
-                       height={620}
-                       class="rounded-t-lg"
-                     
-                       alt="solana-balance-checker-preview-img" />
-                      </div>
-              <div class="p-3">
-              <a  class="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white" href="https://solana-balance-checker.vercel.app/">
-                Solana Balance Checker
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-300">Anonymous users can input pubKey and read their SOL balance.</p>
-              <div class="flex flex-wrap gap-2">
-               devIcons 
-              <img alt="next-js" class="w-8 h-8" src={nextLg} />
-              <img alt="react-js" class="w-8 h-8" src={devIcons.react} />
-              <img alt="tailwind" class="w-8 h-8" src={devIcons.tailwindCss} />
-              <img alt="html" class="w-8 h-8" src={devIcons.html} />
-              <img alt="css" class="w-8 h-8" src={devIcons.css} />
-              <img alt="javascript" class="w-8 h-8" src={devIcons.javascript} />
-              <img alt="typescript" class="w-8 h-8" src={devIcons.typescript} />
-              <img alt="solana" class="w-8 h-8" src={solana} />
-              </div>
-              </div>
-              </div>
-               End Card -->
                     
-
               </div>
           </div>
           
@@ -275,11 +165,6 @@ class="fb devicon-firebase-plain colored"
     margin-bottom: 1em;
   }
 
-
-  .dj {
-    font-size: 2rem;
-    color: #44B78B;
-  }
 
   .fb {
     font-size: 2rem;
