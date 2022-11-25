@@ -1,5 +1,5 @@
 export const siteMetadata = {
-    title: 'DevBryson',
+    title: 'Bryson Ward',
     message: 'Powered by',
     language: 'en-us',
     locale: 'en-US',

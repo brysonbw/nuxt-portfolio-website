@@ -1,24 +1,30 @@
 <script lang="ts">
-  import avatarImage from '../components/images/bryson-avatar.jpg'
+   import avatarImage from '$lib/images/bryson-avatar.jpg'
+	import ToggleTheme from '$lib/toggleTheme/ToggleTheme.svelte';
   let navbarOpen = false
    
 </script>
 
-<div class="fixed top-0 w-full z-30 clearNav md:bg-opacity-90 transition duration-300 ease-in-out">
-    <div class="flex flex-col max-w-6xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8 bg-[#171717]">
+<div class="top-0 w-full z-30 clearNav md:bg-opacity-90 transition duration-300 ease-in-out">
+    <div class="flex flex-col max-w-6xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
       <div class="flex flex-row items-center justify-between p-2">
        
-          <img
-            
+        <a href="/">
+        <img
             src={avatarImage}
             class='borderCircle'
             height={40}
             width={40}
             alt={'bryson-avatar'}
           />
-        
-        <p class="md:ml-2">DevBryson</p>
-        <button
+        </a>
+
+        <a class="no-underline hover:no-underline" href="/"><p class="md:ml-2 text-zinc-600 dark:text-primary font-medium">Bryson Ward</p></a>
+
+        <div class="leading-none px-3 py-1 md:hidden outline-none focus:outline-none ">
+          <ToggleTheme />
+        </div>
+        <!-- <button
           class="text-white cursor-pointer leading-none px-3 py-1 md:hidden outline-none focus:outline-none "
           type="button"
           aria-label="button"
@@ -40,9 +46,9 @@
             <line x1="3" y1="6" x2="21" y2="6"></line>
             <line x1="3" y1="18" x2="21" y2="18"></line>
           </svg>
-        </button>
+        </button> -->
       </div>
-      <div
+      <!-- <div
         class={
           "md:flex flex-grow items-center" +
           (navbarOpen ? " flex" : " hidden")
@@ -62,17 +68,32 @@
              
             </li>
 
-            <li>
-             
-              <a href="/blog"  class="font-medium text-[#bca8ff] hover:underline px-5 py-3 flex items-center transition duration-150 ease-in-out">Blog</a>
-           
-          </li>
-
-           
-            
           </ul>
         </nav>
-      </div>
+      </div> -->
+
+
+
+        <div
+        class={
+          "md:flex flex-grow items-center" +
+          (navbarOpen ? " flex" : " hidden")
+        }
+      >
+        <nav class="flex-col flex-grow ">
+          <ul class="flex flex-grow justify-end flex-wrap items-center">
+            <li class="px-5 py-3 flex items-center transition duration-150 ease-in-out">
+             
+              <ToggleTheme />
+               
+            
+            </li>
+            
+          
+          </ul>
+        </nav>
+      </div> 
+
     </div>
   </div>
 

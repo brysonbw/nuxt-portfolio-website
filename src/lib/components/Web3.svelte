@@ -1,5 +1,5 @@
 <script lang="ts">
-    import solana from '../components/images/solana-logo.jpg'
+    import solana from '$lib/images/solana-logo.jpg'
    
 </script>
 

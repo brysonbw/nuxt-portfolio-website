@@ -1,18 +1,16 @@
-/* Write your global styles here, in PostCSS syntax */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 html,
 body {
-    background-color:#171717 ;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   font-size: 18px;
-  color: white;
+@apply  dark:bg-dark-bg text-zinc-600 dark:text-white;
 }
 
 * {
@@ -20,7 +18,6 @@ body {
 }
 
 a {
-  color: #bca8ff;
   text-decoration: none;
 }
 
@@ -38,9 +35,4 @@ img {
   max-width: 100%;
   display: block;
 }
-
-.text {
-  color: white;
-}
-
 

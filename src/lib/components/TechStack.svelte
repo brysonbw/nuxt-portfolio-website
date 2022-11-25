@@ -1,11 +1,11 @@
 <script lang="ts">
-   import nextLg from '../components/images/nextjs-lg.jpg'
-   import express from '../components/images/express.jpg'
+   import nextLg from '$lib/images/nextjs-lg.jpg'
+
 </script>
 
 <div>
     <header class='header text-center mt-20'>
-        <h1 class='heading2Xl'>Tech Stack</h1>
+        <h1 class='heading2Xl text-[#18181B] dark:text-white'>Tech Stack</h1>
             </header>
             <!--Front End-->
             <div class=" flex flex-col sm:flex-row justify-center">
@@ -67,13 +67,8 @@
            />
         </div>  
             
-               <img
-               src={express}
-               alt="express"
-           width={50}
-           height={50}
-           
-           />
+        <i class="devicon-express-original text-black dark:text-white text-4xl"></i>
+        
            </div>
            </div>
               
@@ -115,13 +110,7 @@
 
                <div class="flex flex-col sm:flex-row justify-center mt-4 ml-3">
                 <div class="flex items-center justify-center sm:justify-start">
-                      <!-- django -->
-               <div class="mr-3">
-                <i 
-               class="dj devicon-django-plain"
-               ></i>
-               </div>
-
+                
                <!-- Firebase -->
                <div class=" ">
                 <i 
@@ -144,11 +133,6 @@
     font-weight: 800;
     letter-spacing: -0.05rem;
     margin: 1rem 0;
-  }
-
-  .dj {
-    font-size: 2rem;
-    color: #44B78B;
   }
 
   .fb {

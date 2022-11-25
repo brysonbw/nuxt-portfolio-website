@@ -4,7 +4,7 @@
 
 <div>
     <header class='header text-center'>
-        <h1 class='heading2Xl'>Languages</h1>
+        <h1 class='heading2Xl text-[#18181B] dark:text-white'>Languages</h1>
             </header>
             <!--Languages-->
             <div class="flex flex-col sm:flex-row ml-[1rem] justify-center">
@@ -27,16 +27,7 @@
                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" 
                />
         </div>
-
-
-       <div class='pl-[1em]'>
-          <img 
-         width={50}
-         height={50}
-          alt="typescript" 
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" 
-          />
-   </div>    
+   
               
    
               <div class='pr-[.7em] pl-[1em]'>
