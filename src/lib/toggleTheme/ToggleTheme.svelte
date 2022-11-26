@@ -3,7 +3,7 @@
     import MoonIcon from 'heroicons-svelte/solid/MoonIcon.svelte'
   import SunIcon from 'heroicons-svelte/solid/SunIcon.svelte'
 
-let darkMode = true;
+  let darkMode = browser && document.documentElement.classList.contains('dark');
 
 function handleSwitchDarkMode() {
     darkMode = !darkMode;
@@ -29,9 +29,6 @@ function handleSwitchDarkMode() {
 
 
 <style lang="postcss">
-	#theme-toggle:not(:checked) {
-
-	}
 
 	#theme-toggle:checked {
 		@apply block
