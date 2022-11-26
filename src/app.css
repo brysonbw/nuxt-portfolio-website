@@ -25,11 +25,6 @@ a:hover {
   text-decoration: underline;
 }
 
-.noUnderline:hover {
-  text-decoration: none;
-}
-
-
 
 img {
   max-width: 100%;

@@ -6,8 +6,8 @@
  <!-- social links -->
  <div class="flex flex-col items-center mt-5 mb-3">
     <div class="flex space-x-4">
-      <a class='transition pt-[.1rem] ease-in-out hover:-translate-y-1 hover:scale-110 duration-300' href='https://discordapp.com/users/805262289119739924' > <img  width={20} height={20} src={discord} alt="discord-logo"/></a> 
-      <a class='transitio ease-in-out hover:-translate-y-1 hover:scale-110 duration-300' href='https://github.com/brysonbw' >
+      <a class='md:transition pt-[.1rem] md:ease-in-out md:hover:-translate-y-1 md:hover:scale-110 md:duration-300' href='https://discordapp.com/users/805262289119739924' > <img  width={20} height={20} src={discord} alt="discord-logo"/></a> 
+      <a class='md:transition ease-in-out md:ease-in-out md:hover:-translate-y-1 md:hover:scale-110 md:duration-300' href='https://github.com/brysonbw' >
         <svg
 viewBox="0 0 24 24"
 aria-hidden="true"
@@ -20,7 +20,7 @@ d="M12 2C6.475 2 2 6.588 2 12.253c0 4.537 2.862 8.369 6.838 9.727.5.09.687-.218.
 />
 </svg>
       </a> 
-     <a class='transition pt-[.1rem] ease-in-out hover:-translate-y-1 hover:scale-110 duration-300' href='https://www.linkedin.com/in/bryson-ward-b54085118/' >
+     <a class='md:transition pt-[.1rem] md:ease-in-out md:hover:-translate-y-1 md:hover:scale-110 md:duration-300' href='https://www.linkedin.com/in/bryson-ward-b54085118/' >
         <img width={19} height={19} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="linkedin-logo" />
       </a> 
       </div>
