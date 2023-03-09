@@ -1,28 +1,28 @@
-# Sveltekit Portfolio Website
+# [Nuxt 3](https://nuxt.com/docs) Portfolio Website
+Feel free to clone, fork, or download to customize and use for your own portfolio website.
 
-## Using As A Template
-Feel free to clone, fork, or download to customize and use for your own portfolio website
+## Usage
 
+```bash
+npm install
+```
 
 ## Developing
 
-Once you've created a project and installed dependencies with `pnpm install` (or `npm install` or `yarn`), start a development server:
-
 ```bash
-pnpm run dev
+npm run dev
 
-# or start the server and open the app in a new browser tab
-pnpm run dev -- --open
+# Open in a browser at http://localhost:3000 to view.
 ```
 
 ## Building
 
-To create a production version of your app:
-
 ```bash
-pnpm run build
+npm run build
 ```
 
-You can preview the production build with `pnpm run preview`.
+Locally preview build:
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment. If you decide to use [Netlify](https://docs.netlify.com/integrations/frameworks/sveltekit/#deployment), it's already installed.
+```bash
+npm run preview
+```
