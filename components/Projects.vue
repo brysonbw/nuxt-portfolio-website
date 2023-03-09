@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class="header text-center mt-20">
+    <header class="header text-center mt-20 mb-2">
       <h1 class="heading2XlPortfolio text-[#18181B] dark:text-white">
         Projects
       </h1>
@@ -64,7 +64,7 @@
             <a
               rel="noopener noreferrer"
               class="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white"
-              href="https://www.npmjs.com/package/prettierrc.json"
+              href="https://marketplace.visualstudio.com/items?itemName=brysonbw.svelte-component-snippets"
             >
               Svelte Component Snippets
             </a>
