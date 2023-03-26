@@ -34,6 +34,14 @@
           Portfolio: Skills & Projects</NuxtLink
         >
       </p>
+      <p class="mt-4 text-zinc-600 font-medium dark:text-primary">
+        Certificates
+      </p>
+      <ul class="list-disc marker:dark:text-primary marker:text-zinc-600 ml-4">
+        <li>
+          <a href="/pdf/sec-cert.pdf" target="_blank">Security+ (SY0-601)</a>
+        </li>
+      </ul>
     </section>
   </div>
 </template>
