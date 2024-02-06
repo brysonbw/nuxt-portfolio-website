@@ -26,6 +26,7 @@
         problems. And most importantly creating the change I want to see in the
         world!
       </p>
+      <!--Portfolio-->
       <p class="mt-4">
         <NuxtLink
           to="/portfolio"
@@ -34,6 +35,16 @@
           Portfolio: Skills & Projects</NuxtLink
         >
       </p>
+      <!--Blog-->
+      <p class="mt-4">
+        <NuxtLink
+          to="/blog"
+          class="text-zinc-600 font-medium dark:text-primary"
+        >
+          Blog</NuxtLink
+        >
+      </p>
+      <!--Certificates-->
       <p class="mt-4 text-zinc-600 font-medium dark:text-primary">
         Certificates
       </p>
@@ -58,33 +69,3 @@ export default defineComponent({
   },
 });
 </script>
-
-<style scoped>
-.headingMd {
-  font-size: 1.2rem;
-  line-height: 1.5;
-}
-
-.borderCircle {
-  border-radius: 9999px;
-}
-
-.heading2XlTitle {
-  font-size: 2.5rem;
-  line-height: 1.2;
-  font-weight: 800;
-  letter-spacing: -0.05rem;
-  margin: 0;
-  margin-bottom: 1em;
-  text-align: center;
-}
-
-.heading2Xl {
-  font-size: 2.5rem;
-  line-height: 1.2;
-  font-weight: 800;
-  letter-spacing: -0.05rem;
-  margin: 1rem 0;
-  text-align: center;
-}
-</style>
