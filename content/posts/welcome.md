@@ -1,6 +1,6 @@
 ---
 title: "Welcome To My Blog"
-date: 2023-02-03
+date: 2024-02-03
 draft: false
 tags: []
 thumbnail: "/img/welcome.jpg"
