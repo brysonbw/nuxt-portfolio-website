@@ -1,4 +1,6 @@
-export const devIcons = {
+import type { DevIcon } from "types";
+
+export const devIcons: DevIcon = {
   react:
     'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
   node: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
