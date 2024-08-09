@@ -1,9 +1,11 @@
 <template>
   <div>
     <header class="header text-center mt-20">
-      <h1 class="heading2Xl text-[#18181B] dark:text-white">Latest Code</h1>
+      <h1 class="heading2Xl text-[#18181B] dark:text-white">
+        Latest Code
+      </h1>
     </header>
-    <!--Github-->
+    <!-- Github -->
     <div class="flex flex-col sm:flex-row justify-center">
       <div class="flex items-center justify-center sm:justify-start">
         <a

@@ -1,4 +1,4 @@
-import type { DevIcon } from "types";
+import type { DevIcon } from 'types';
 
 export const devIcons: DevIcon = {
   react:

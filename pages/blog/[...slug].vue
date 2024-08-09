@@ -1,34 +1,42 @@
 <template>
   <article class="rounded-2xl">
-    <ContentDoc :path="`/posts/${slug}`" v-slot="{ doc }">
+    <ContentDoc
+      v-slot="{ doc }"
+      :path="`/posts/${slug}`"
+    >
       <!-- Header  -->
       <header>
         <div class="text-center p-5">
-          <h1 class="text-4xl font-bold lg:w-2/3 mx-auto">{{ doc.title }}</h1>
-          <p class="text-gray-500 text-sm mt-2">{{ formatDate(doc.date) }}</p>
+          <h1 class="text-4xl font-bold lg:w-2/3 mx-auto">
+            {{ doc.title }}
+          </h1>
+          <p class="text-gray-500 text-sm mt-2">
+            {{ formatDate(doc.date) }}
+          </p>
         </div>
       </header>
-      <!-- Doc Content-->
+      <!-- Doc Content -->
       <div class="mt-4 content p-5">
         <ContentRenderer :value="doc" />
       </div>
     </ContentDoc>
 
-     <!--Back To Blog Posts-->
-     <div style="margin: 3rem 0 0">
-      <NuxtLink class="text-zinc-600 dark:text-primary" href="/blog"
-        >← Back to blog posts</NuxtLink
-      >
+    <!-- Back To Blog Posts -->
+    <div style="margin: 3rem 0 0">
+      <NuxtLink
+        class="text-zinc-600 dark:text-primary"
+        href="/blog"
+      >← Back to blog posts</NuxtLink>
     </div>
   </article>
 </template>
 
 <script lang="ts" setup>
 const { slug } = useRoute().params;
-//TODO: useContentHead for doc page SEO
+// TODO: useContentHead for doc page SEO
 function formatDate(date: string) {
-    return new Date(date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
-  }
+  return new Date(date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+}
 </script>
 
 <style>

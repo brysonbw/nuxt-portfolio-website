@@ -9,7 +9,7 @@
           class="h-5 w-5"
           src="~/assets/images/discord.png"
           alt="discord-logo"
-      /></a>
+        ></a>
       <a
         class="md:transition ease-in-out md:ease-in-out md:hover:-translate-y-1 md:hover:scale-110 md:duration-300"
         href="https://github.com/brysonbw"
@@ -34,7 +34,7 @@
           class="h-4 w-4"
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
           alt="linkedin-logo"
-        />
+        >
       </a>
     </div>
   </div>

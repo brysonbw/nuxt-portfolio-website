@@ -1,16 +1,22 @@
 <template>
   <div>
     <header class="header text-center mt-20">
-      <h1 class="heading2Xl text-[#18181B] dark:text-white">Email</h1>
+      <h1 class="heading2Xl text-[#18181B] dark:text-white">
+        Email
+      </h1>
     </header>
-    <!-- Contact-->
+    <!-- Contact -->
     <div class="flex flex-col sm:flex-row justify-center">
       <div class="flex items-center justify-center sm:justify-start">
         <a
           href="mailto:brysonward77@gmail.com"
           class="transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300"
         >
-          <img src="~/assets/images/gmail.png" width="55" alt="gmail-logo" />
+          <img
+            src="~/assets/images/gmail.png"
+            width="55"
+            alt="gmail-logo"
+          >
         </a>
       </div>
     </div>

@@ -11,14 +11,15 @@
             src="~/assets/images/bryson-avatar.jpg"
             class="w-10 h-10"
             alt="bryson-avatar"
-          />
+          >
         </NuxtLink>
 
-        <a class="no-underline hover:no-underline" href="/"
-          ><p class="md:ml-2 text-zinc-600 dark:text-primary font-medium">
-            Bryson Ward
-          </p></a
-        >
+        <a
+          class="no-underline hover:no-underline"
+          href="/"
+        ><p class="md:ml-2 text-zinc-600 dark:text-primary font-medium">
+          Bryson Ward
+        </p></a>
 
         <div
           class="leading-none px-3 py-1 md:hidden outline-none focus:outline-none"
@@ -48,6 +49,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import ToggleTheme from './ToggleTheme.vue';
+
 export default defineComponent({
   components: { ToggleTheme },
   data() {

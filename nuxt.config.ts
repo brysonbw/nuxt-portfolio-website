@@ -1,6 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode', '@nuxt/content'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/color-mode',
+    '@nuxt/content',
+    '@nuxt/eslint',
+  ],
   colorMode: {
     classSuffix: '',
     preference: 'dark',
@@ -65,4 +70,5 @@ export default defineNuxtConfig({
       ],
     },
   },
+  compatibilityDate: '2024-08-09',
 });

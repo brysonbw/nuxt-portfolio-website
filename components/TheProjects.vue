@@ -1,18 +1,22 @@
 <template>
   <div>
-    <!--Header-->
+    <!-- Header -->
     <header class="header text-center mt-20 mb-2">
       <h1 class="heading2XlPortfolio text-[#18181B] dark:text-white">
         Projects
       </h1>
     </header>
-    <!--Projects-->
+    <!-- Projects -->
     <div class="container mx-auto px-5">
       <div
         class="w-full sm:w-3/4 lg:w-full mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-10 pt-2"
       >
-       <!--Project Card-->
-       <ProjectCard v-for="project in projects" :key="project.name" :project="project" />
+        <!-- Project Card -->
+        <ProjectCard
+          v-for="project in projects"
+          :key="project.name"
+          :project="project"
+        />
       </div>
     </div>
   </div>
@@ -22,17 +26,15 @@
       class="text-zinc-600 dark:text-primary"
       rel="noopener noreferrer"
       href="https://github.com/search?l=&o=desc&q=user%3Abrysonbw&s=updated&type=Repositories"
-      >View more projects</a
-    >
+    >View more projects</a>
   </div>
 </template>
 
 <script lang="ts" setup>
-import { ref } from 'vue'
+import { ref } from 'vue';
 import { projects_list } from '@/utils/projects';
 
-const projects = ref(projects_list)
-
+const projects = ref(projects_list);
 </script>
 
 <style scoped>
