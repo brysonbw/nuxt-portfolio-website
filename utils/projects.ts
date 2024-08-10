@@ -1,21 +1,27 @@
 import type { Project } from 'types';
+import deno from '@/assets/images/deno.jpg';
+import cesium from '@/assets/images/cesium-logo-only.png';
+import hono from '@/assets/images/hono.jpg';
+import next from '@/assets/images/nextjs-lg.jpg';
 
 export const projects_list: Project[] = [
   {
-    image: '/img/prettier-json.png',
-    image_alt: 'library-prettier-json-preview-img',
-    link: 'https://www.npmjs.com/package/prettierrc.json',
-    name: 'prettier.json',
-    description: 'A cli npm library for creating a standard .prettierrc.json file.',
-    dev_icons: ['npm', 'node', 'javascript'],
+    image: '/img/ip-address-tracker.png',
+    image_alt: 'ip-address-tracker-app-img',
+    link: 'https://ip-address-tracker-io.vercel.app/',
+    name: 'IP Address Tracker',
+    description: 'Track and analyze IP addresses. Utilize the app to view the location of any IP address on a Cesium map and retrieve IP information through the IPinfo API via an API proxy.',
+    image_icons: [{ name: 'cesium-js', src: cesium, classes: 'mr-2' }, { name: 'deno', src: deno }, { name: 'hono', src: hono, classes: 'ml-1' }],
+    dev_icons: ['javascript', 'typescript', 'vuetify'],
   },
   {
-    image: '/img/svelte-comp-snippets.png',
-    image_alt: 'vscode-svelte-comp-snippets-preview-img',
-    link: 'https://marketplace.visualstudio.com/items?itemName=brysonbw.svelte-component-snippets',
-    name: 'Svelte Component Snippets',
-    description: 'Visual Studio Code Extension for adding Svelte component snippets.',
-    dev_icons: ['vscode', 'svelte'],
+    image: '/img/dictionary.png',
+    image_alt: 'dictionary-img',
+    link: 'https://next-dictionary-app.vercel.app/',
+    name: 'Dictionary',
+    description: 'Search for word definitions using Dictionary API . Find detailed meanings, synonyms, and antonyms.',
+    image_icons: [{ name: 'next-js', src: next, classes: 'mr-2' }],
+    dev_icons: ['javascript', 'typescript', 'tailwindCss', 'react', 'redux'],
   },
   {
     image: '/img/gogo-pikachu.png',
@@ -26,5 +32,21 @@ export const projects_list: Project[] = [
     description: 'A 2D Phaser HTML5 Platform Game. Collect Thunder Stones to level up Pikachu!',
     image_icons: [{ name: 'phaser-js', src: 'https://raw.githubusercontent.com/photonstorm/phaser/v2.6.2/resources/Phaser%20Logo/PNG/Phaser%20Logo%20Web%20Quality.png' }],
     dev_icons: ['html', 'css', 'javascript'],
+  },
+  {
+    image: '/img/svelte-comp-snippets.png',
+    image_alt: 'vscode-svelte-comp-snippets-preview-img',
+    link: 'https://marketplace.visualstudio.com/items?itemName=brysonbw.svelte-component-snippets',
+    name: 'Svelte Component Snippets',
+    description: 'Visual Studio Code Extension for adding Svelte component snippets.',
+    dev_icons: ['vscode', 'svelte'],
+  },
+  {
+    image: '/img/prettier-json.png',
+    image_alt: 'library-prettier-json-preview-img',
+    link: 'https://www.npmjs.com/package/prettierrc.json',
+    name: 'prettier.json',
+    description: 'A cli npm library for creating a standard .prettierrc.json file.',
+    dev_icons: ['npm', 'node', 'javascript'],
   },
 ];

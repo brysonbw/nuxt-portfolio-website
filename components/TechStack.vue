@@ -18,8 +18,8 @@
 
         <img
           width="50"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg"
-          alt="svelte"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg"
+          alt="vue"
         >
 
         <div class="ml-3">
@@ -27,6 +27,27 @@
             width="50"
             alt="tailwind"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- Meta Frameworks -->
+    <div class="flex flex-col sm:flex-row justify-center mt-2">
+      <div class="mb-1 flex items-center justify-center sm:justify-start">
+        <div class="mr-3">
+          <img
+            width="50"
+            alt="nuxt"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nuxtjs/nuxtjs-original.svg"
+          >
+        </div>
+
+        <div class="mr-3">
+          <img
+            width="50"
+            alt="next"
+            src="~/assets/images/nextjs-lg.jpg"
           >
         </div>
       </div>
@@ -46,14 +67,10 @@
         <div class="mr-3">
           <img
             width="50"
-            alt="next"
-            src="~/assets/images/nextjs-lg.jpg"
+            alt="deno"
+            src="~/assets/images/deno.jpg"
           >
         </div>
-
-        <i
-          class="devicon-express-original text-black dark:text-white text-4xl"
-        />
       </div>
     </div>
 

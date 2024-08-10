@@ -49,7 +49,7 @@
         Certificates
       </p>
       <ul
-        class="list-disc marker:dark:text-primary marker:text-zinc-600 ml-[1rem]"
+        class="list-disc marker:dark:text-primary marker:text-zinc-600 ml-[1.1rem]"
       >
         <li>
           <a
