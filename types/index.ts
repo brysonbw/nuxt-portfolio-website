@@ -5,6 +5,7 @@ export type DevIcon = {
 type ImageIcon = {
   name: string;
   src: string;
+  classes?: string;
 };
 
 export type Project = {
