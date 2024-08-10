@@ -25,17 +25,20 @@
         {{ project.description }}
       </p>
       <div
-        v-if="project?.image_icons && project?.image_icons?.length"
+
         class="flex flex-wrap gap-2"
       >
         <!-- Tech Stack Icons -->
-        <img
-          v-for="(img_icon, index) in project.image_icons"
-          :key="img_icon + index"
-          class="w-8 h-8"
-          :src="img_icon.src"
-          :alt="img_icon.name"
-        >
+        <!-- Image -->
+        <div v-if="project?.image_icons && project?.image_icons?.length > 0">
+          <img
+            v-for="(img_icon, index) in project.image_icons"
+            :key="img_icon + index"
+            :class="['w-8 h-8 inline-flex', img_icon.classes]"
+            :src="img_icon.src"
+            :alt="img_icon.name"
+          >
+        </div>
         <img
           v-for="(dev_icon, index) in project.dev_icons"
           :key="dev_icon + index"
