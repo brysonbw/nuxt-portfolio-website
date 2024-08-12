@@ -10,7 +10,7 @@ export const projects_list: Project[] = [
     image_alt: 'ip-address-tracker-app-img',
     link: 'https://ip-address-tracker-io.vercel.app/',
     name: 'IP Address Tracker',
-    description: 'Track and analyze IP addresses. Utilize the app to view the location of any IP address on a Cesium map and retrieve IP information through the IPinfo API via an API proxy.',
+    description: 'Track, visualize, and analyze IP address locations using Vue.js and Cesium.js, with data from the IPinfo API accessed through a REST API proxy.',
     image_icons: [{ name: 'cesium-js', src: cesium, classes: 'mr-2' }, { name: 'deno', src: deno }, { name: 'hono', src: hono, classes: 'ml-1' }],
     dev_icons: ['javascript', 'typescript', 'vuetify'],
   },
