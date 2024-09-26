@@ -8,7 +8,7 @@ export const projects_list: Project[] = [
   {
     image: '/img/ip-address-tracker.png',
     image_alt: 'ip-address-tracker-app-img',
-    link: 'https://ip-address-tracker-io.vercel.app/',
+    link: 'https://github.com/brysonbw/vue-ip-address-tracker-client',
     name: 'IP Address Tracker',
     description: 'Track, visualize, and analyze IP address locations using Vue.js and Cesium.js, with data from the IPinfo API accessed through a REST API proxy.',
     image_icons: [{ name: 'cesium-js', src: cesium, classes: 'mr-2' }, { name: 'deno', src: deno }, { name: 'hono', src: hono, classes: 'ml-1' }],
