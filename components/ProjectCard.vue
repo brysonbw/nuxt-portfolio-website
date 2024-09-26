@@ -14,7 +14,7 @@
     <div class="p-3">
       <!-- Title/Name -->
       <a
-        rel="noopener noreferrer"
+        target="_blank"
         class="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white"
         :href="`${project.link}`"
       >
