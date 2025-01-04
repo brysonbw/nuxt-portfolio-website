@@ -41,8 +41,8 @@
               >
             </div>
             <!-- Blog Title/Slug Content -->
-            <div class="my-4 ml-4">
-              <h3 class="text-1xl font-bold">
+            <div class="my-4 text-center">
+              <h3 class="text-1xl font-bold break-words">
                 <NuxtLink :to="`/blog/${blog.slug}`">
                   {{ blog.title }}
                 </NuxtLink>

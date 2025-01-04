@@ -3,7 +3,7 @@ title: "Welcome To My Blog"
 date: 2024-02-03
 draft: false
 tags: []
-thumbnail: "/img/welcome.jpg"
+thumbnail: "/img/blog/welcome.jpg"
 slug: "welcome"
 ---
 
