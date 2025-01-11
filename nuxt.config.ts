@@ -1,17 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: [
-    '@nuxtjs/tailwindcss',
-    '@nuxtjs/color-mode',
-    '@nuxt/content',
-    '@nuxt/eslint',
-  ],
-  colorMode: {
-    classSuffix: '',
-    preference: 'dark',
-    fallback: 'dark',
-  },
-  css: ['~/assets/css/main.css'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode', '@nuxt/content', '@nuxt/eslint', '@pinia/nuxt'],
   app: {
     head: {
       title: 'Bryson Ward | Home',
@@ -69,6 +58,18 @@ export default defineNuxtConfig({
         },
       ],
     },
+  },
+  css: ['~/assets/css/main.css'],
+  colorMode: {
+    classSuffix: '',
+    preference: 'dark',
+    fallback: 'dark',
+  },
+  alias: {
+    '@components': './components',
+    '@utils': './utils',
+    '@assets': './assets',
+    '@stores': './stores',
   },
   compatibilityDate: '2024-08-09',
 });
