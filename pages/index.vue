@@ -62,14 +62,6 @@
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
+<script setup lang="ts">
 import SocialLinks from '@/components/SocialLinks.vue';
-
-export default defineComponent({
-  components: { SocialLinks },
-  data() {
-    return {};
-  },
-});
 </script>

@@ -18,3 +18,10 @@ export type Project = {
   image_icons?: ImageIcon[];
   dev_icons: string[];
 };
+
+export type SiteMetadata = {
+  title: string;
+  message: string;
+  language: string;
+  locale: string;
+};

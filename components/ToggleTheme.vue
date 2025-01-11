@@ -23,6 +23,7 @@
 import { MoonIcon, SunIcon } from '@heroicons/vue/24/solid';
 
 const colorMode = useColorMode();
+
 function toggleColorMode() {
   if (colorMode.preference === 'dark') {
     colorMode.preference = 'light';

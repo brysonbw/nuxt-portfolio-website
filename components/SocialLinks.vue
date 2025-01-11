@@ -1,6 +1,7 @@
 <template>
   <div class="flex flex-col items-center mt-5 mb-3">
     <div class="flex space-x-4">
+      <!-- Discord -->
       <a
         class="md:transition pt-[.1rem] md:ease-in-out md:hover:-translate-y-1 md:hover:scale-110 md:duration-300"
         href="https://discordapp.com/users/805262289119739924"
@@ -10,6 +11,7 @@
           src="~/assets/images/discord.png"
           alt="discord-logo"
         ></a>
+      <!-- Github -->
       <a
         class="md:transition ease-in-out md:ease-in-out md:hover:-translate-y-1 md:hover:scale-110 md:duration-300"
         href="https://github.com/brysonbw"
@@ -26,6 +28,7 @@
           />
         </svg>
       </a>
+      <!-- LinkedIn -->
       <a
         class="md:transition pt-[.1rem] md:ease-in-out md:hover:-translate-y-1 md:hover:scale-110 md:duration-300"
         href="https://www.linkedin.com/in/bryson-ward-b54085118/"
@@ -40,14 +43,7 @@
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
-
-export default defineComponent({
-  data() {
-    return {};
-  },
-});
+<script setup lang="ts">
 </script>
 
 <style scoped></style>

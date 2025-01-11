@@ -32,11 +32,10 @@
 </template>
 
 <script lang="ts" setup>
+import { formatDate } from '@/utils/formatDate';
+
 const { slug } = useRoute().params;
 // TODO: useContentHead for doc page SEO
-function formatDate(date: string) {
-  return new Date(date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
-}
 </script>
 
 <style>

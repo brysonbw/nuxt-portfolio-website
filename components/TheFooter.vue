@@ -5,7 +5,7 @@
         class="mb-2 flex space-x-2 text-sm text-[#18181B] dark:text-gray-400"
       >
         <div>
-          {{ metaData.message }}
+          {{ metadata.message }}
           <span class="ml-[.1em]"><a
             class="text-[#00DC81]"
             href="https://nuxt.com/"
@@ -27,29 +27,26 @@
               fill="#2f495e"
             />
           </svg>
-          <!-- <i
-            class="inline-block text-[#00DC81] devicon-nuxtjs-plain h-2 ml-[.1em]"
-          ></i> -->
         </div>
         <div>•</div>
         <div>©{{ new Date().getFullYear() }}</div>
         <div>•</div>
-        <a href="/">{{ metaData.title }}</a>
+        <a href="/">{{ metadata.title }}</a>
       </div>
     </div>
   </footer>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
-import { metaData } from '@/utils/metaData';
+<script setup lang="ts">
+import { computed } from 'vue';
+import { useAppStore } from '@/stores/app';
 
-export default defineComponent({
-  data() {
-    return {
-      metaData,
-    };
-  },
+// Stores
+const appStore = useAppStore();
+
+// Computed
+const metadata = computed(() => {
+  return appStore.metadata;
 });
 </script>
 

@@ -1,6 +1,5 @@
 <template>
   <div>
-    <!-- Header -->
     <header class="header text-center mt-20 mb-2">
       <h1 class="heading2XlPortfolio text-[#18181B] dark:text-white">
         Projects
@@ -24,17 +23,23 @@
   <div class="text-center pt-8 text-lg">
     <a
       class="text-zinc-600 dark:text-primary"
-      rel="noopener noreferrer"
+      target="_blank"
       href="https://github.com/search?l=&o=desc&q=user%3Abrysonbw&s=updated&type=Repositories"
     >View more projects</a>
   </div>
 </template>
 
 <script lang="ts" setup>
-import { ref } from 'vue';
-import { projects_list } from '@/utils/projects';
+import { computed } from 'vue';
+import { useProjectStore } from '@/stores/project';
 
-const projects = ref(projects_list);
+// Stores
+const projectStore = useProjectStore();
+
+// Computed
+const projects = computed(() => {
+  return projectStore.projects;
+});
 </script>
 
 <style scoped>

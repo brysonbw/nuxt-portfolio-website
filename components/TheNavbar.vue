@@ -48,7 +48,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import ToggleTheme from './ToggleTheme.vue';
+import ToggleTheme from '@/components/ToggleTheme.vue';
 
 export default defineComponent({
   components: { ToggleTheme },

@@ -1,130 +1,56 @@
 <template>
   <div>
-    <header class="header text-center mt-20">
+    <header class="header mt-20">
       <h1 class="heading2Xl text-[#18181B] dark:text-white">
         Tech Stack
       </h1>
     </header>
-    <!-- Front End -->
-    <div class="flex flex-col sm:flex-row justify-center">
-      <div class="mb-2 flex items-center justify-center sm:justify-start">
-        <div class="mr-3">
-          <img
-            width="50"
-            alt="react"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-          >
-        </div>
-
-        <img
-          width="50"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg"
-          alt="vue"
+    <div class="flex justify-center">
+      <ul class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-7 gap-4 text-center text-gray-500 dark:text-gray-400">
+        <li
+          v-for="(item, index) in items"
+          :key="index"
+          class="flex flex-col items-center space-y-2"
         >
-
-        <div class="ml-3">
           <img
-            width="50"
-            alt="tailwind"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+            :width="50"
+            :alt="item.name"
+            :src="item.src"
           >
-        </div>
-      </div>
-    </div>
-
-    <!-- Meta Frameworks -->
-    <div class="flex flex-col sm:flex-row justify-center mt-2">
-      <div class="mb-1 flex items-center justify-center sm:justify-start">
-        <div class="mr-3">
-          <img
-            width="50"
-            alt="nuxt"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nuxtjs/nuxtjs-original.svg"
-          >
-        </div>
-
-        <div class="mr-3">
-          <img
-            width="50"
-            alt="next"
-            src="~/assets/images/nextjs-lg.jpg"
-          >
-        </div>
-      </div>
-    </div>
-
-    <!-- Backend -->
-    <div class="flex flex-col sm:flex-row justify-center mt-2">
-      <div class="mb-1 flex items-center justify-center sm:justify-start">
-        <div class="mr-3">
-          <img
-            width="50"
-            alt="node"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-          >
-        </div>
-
-        <div class="mr-3">
-          <img
-            width="50"
-            alt="deno"
-            src="~/assets/images/deno.jpg"
-          >
-        </div>
-      </div>
-    </div>
-
-    <!-- Database -->
-    <div class="flex flex-col sm:flex-row justify-center mt-3 ml-3">
-      <div class="flex items-center justify-center sm:justify-start">
-        <div class="mr-3">
-          <img
-            width="50"
-            alt="mysql"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
-          >
-        </div>
-
-        <div class="mr-3">
-          <img
-            width="50"
-            alt="psql"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
-          >
-        </div>
-
-        <div class="mr-3">
-          <img
-            width="50"
-            alt="mongo"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
-          >
-        </div>
-      </div>
+        </li>
+      </ul>
     </div>
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
+<script setup lang="ts">
+import DenoImage from '@/assets/images/deno.jpg';
+import NextImage from '@/assets/images/nextjs-lg.jpg';
 
-export default defineComponent({
-  data() {
-    return {};
-  },
-});
+const items = [
+  // FE JS Framworks
+  { name: 'Angular', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg' },
+  { name: 'React', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
+  { name: 'Vue', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg' },
+  // CSS Frameworks
+  { name: 'Angular Material', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularmaterial/angularmaterial-original.svg' },
+  { name: 'Vuetify', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuetify/vuetify-original.svg' },
+  { name: 'Tailwind', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg' },
+  // FE Meta Frameworks
+  { name: 'Next', src: NextImage },
+  { name: 'Nuxt', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nuxtjs/nuxtjs-original.svg' },
+  // Server Side Frameworks
+  { name: 'Node', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
+  { name: 'Deno', src: DenoImage },
+  { name: 'Dot Net Core', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg' },
+  // Cloud Services
+  { name: 'Firebase', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg' },
+  // Databases
+  { name: 'MySQL', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg' },
+  { name: 'Postgres', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg' },
+  { name: 'MS SQL Server', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg' },
+];
 </script>
 
 <style scoped>
-.heading2Xl {
-  font-size: 2.5rem;
-  line-height: 1.2;
-  font-weight: 800;
-  letter-spacing: -0.05rem;
-  margin: 1rem 0;
-}
-.fb {
-  font-size: 2rem;
-  color: #f3c72e;
-}
 </style>

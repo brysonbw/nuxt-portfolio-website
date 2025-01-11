@@ -2,6 +2,7 @@
   <div>
     <!-- Navbar -->
     <TheNavbar />
+    <!-- Content -->
     <div class="container">
       <slot />
     </div>
@@ -10,17 +11,9 @@
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
+<script setup lang="ts">
 import TheNavbar from '@/components/TheNavbar.vue';
 import TheFooter from '@/components/TheFooter.vue';
-
-export default defineComponent({
-  components: { TheNavbar, TheFooter },
-  data() {
-    return {};
-  },
-});
 </script>
 
 <style scoped>

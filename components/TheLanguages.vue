@@ -1,59 +1,38 @@
 <template>
   <div>
-    <header class="header text-center">
+    <header class="header">
       <h1 class="heading2Xl text-[#18181B] dark:text-white">
         Languages
       </h1>
     </header>
-    <!-- Languages -->
-    <div class="flex flex-col sm:flex-row justify-center">
-      <div class="flex items-center justify-center">
-        <img
-          width="50"
-          alt="javascript"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+    <div class="flex justify-center">
+      <ul class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-6 gap-4 text-center text-gray-500 dark:text-gray-400">
+        <li
+          v-for="(item, index) in items"
+          :key="index"
+          class="flex flex-col items-center space-y-2"
         >
-
-        <img
-          width="50"
-          class="ml-[.7rem]"
-          alt="typescript"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
-        >
-
-        <img
-          width="50"
-          class="ml-2"
-          alt="html"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-        >
-        <img
-          width="50"
-          class="ml-1"
-          alt="css"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-        >
-      </div>
+          <img
+            :width="50"
+            :alt="item.name"
+            :src="item.src"
+          >
+        </li>
+      </ul>
     </div>
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
-
-export default defineComponent({
-  data() {
-    return {};
-  },
-});
+<script setup lang="ts">
+const items = [
+  { name: 'JavaScript', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
+  { name: 'TypeScript', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
+  { name: 'C#', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg' },
+  { name: 'PHP', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg' },
+  { name: 'HTML', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
+  { name: 'CSS', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
+];
 </script>
 
 <style scoped>
-.heading2Xl {
-  font-size: 2.5rem;
-  line-height: 1.2;
-  font-weight: 800;
-  letter-spacing: -0.05rem;
-  margin: 1rem 0;
-}
 </style>

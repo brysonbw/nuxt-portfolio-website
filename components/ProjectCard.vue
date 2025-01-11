@@ -1,5 +1,4 @@
 <template>
-  <!-- Project Card -->
   <div
     class="max-w-sm transition ease-in-out hover:scale-105 duration-300 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-[#171717] dark:border-[#2b2b2bc5]"
   >
@@ -52,13 +51,22 @@
 </template>
 
 <script setup lang="ts">
-import { devIcons } from '@/utils/devicons';
+import { computed } from 'vue';
+import { useAppStore } from '@/stores/app';
 
 defineProps({
   project: {
     type: Object,
     required: true,
   },
+});
+
+// Stores
+const appStore = useAppStore();
+
+// Computed
+const devIcons = computed(() => {
+  return appStore.devIcons;
 });
 </script>
 

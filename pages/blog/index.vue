@@ -78,18 +78,18 @@
 </template>
 
 <script setup lang="ts">
-import { seoMetaData } from '@/utils/metaData';
+import { formatDate } from '@/utils/formatDate';
+import { useAppStore } from '@/stores/app';
 
-const { title, meta } = seoMetaData('Bryson Ward | Blog', 'Bryson Ward: Blog Posts', 'blog');
+// Stores
+const appStore = useAppStore();
+
+const { title, meta } = appStore.getSeoMetadata('Bryson Ward | Blog', 'Bryson Ward: Blog Posts', 'blog');
 
 useHead({
   title,
   meta,
 });
-
-function formatDate(date: string) {
-  return new Date(date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
-}
 </script>
 
   <style scoped></style>

@@ -1,12 +1,13 @@
 <template>
-  <!-- Podcast Recommendation Card -->
   <div class="flex items-center gap-5 max-w-2xl podcast-rec-card">
     <slot>
+      <!-- Image -->
       <img
         :src="imageSrc"
         :alt="title + ' Thumbnail'"
         class="w-24 rounded-lg border-[1px] border-gray-300 dark:border-0 dark:border-transparent"
       >
+      <!-- Title -->
       <div>
         <h3 class="m-0">
           <a
