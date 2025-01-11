@@ -24,7 +24,7 @@
     <div style="margin: 3rem 0 0">
       <NuxtLink
         class="text-zinc-600 dark:text-primary"
-        href="/"
+        to="/"
       >← Back to home</NuxtLink>
     </div>
   </div>

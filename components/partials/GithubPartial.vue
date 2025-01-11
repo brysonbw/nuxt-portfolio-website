@@ -11,7 +11,7 @@
         <a
           target="_blank"
           class="transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:no-underline"
-          href="'https://github.com/brysonbw'"
+          href="https://github.com/brysonbw"
         >
           <svg
             viewBox="0 0 24 24"
