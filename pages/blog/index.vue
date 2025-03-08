@@ -72,7 +72,7 @@ import { useAppStore } from '@/stores/app';
 const appStore = useAppStore();
 
 const { data: blogs } = await useAsyncData('blog', async () => {
-  const content = await queryCollection('content').all();
+  const content = await queryCollection('blog').all();
 
   return content.filter(blog => !blog.meta.draft).sort((a, b) => {
     const aDate = a.meta?.date ? new Date(a.meta.date as string).getTime() : 0;
