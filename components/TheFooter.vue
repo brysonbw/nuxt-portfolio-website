@@ -9,6 +9,7 @@
           <span class="ml-[.1em]"><a
             class="text-[#00DC81]"
             href="https://nuxt.com/"
+            target="_blank"
           >Nuxt</a></span>
           <svg
             viewBox="0 0 128 128"

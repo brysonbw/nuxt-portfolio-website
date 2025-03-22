@@ -14,12 +14,12 @@
           >
         </NuxtLink>
 
-        <a
+        <NuxtLink
           class="no-underline hover:no-underline"
-          href="/"
+          to="/"
         ><p class="md:ml-2 text-zinc-600 dark:text-primary font-medium">
           Bryson Ward
-        </p></a>
+        </p></NuxtLink>
 
         <div
           class="leading-none px-3 py-1 md:hidden outline-none focus:outline-none"

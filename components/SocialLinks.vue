@@ -5,16 +5,29 @@
       <a
         class="md:transition pt-[.1rem] md:ease-in-out md:hover:-translate-y-1 md:hover:scale-110 md:duration-300"
         href="https://discordapp.com/users/805262289119739924"
+        target="_blank"
       >
         <img
           class="h-5 w-5"
           src="~/assets/images/discord.png"
           alt="discord-logo"
         ></a>
+      <!-- Blue Sky -->
+      <a
+        class="md:transition pt-[.1rem] md:ease-in-out md:hover:-translate-y-1 md:hover:scale-110 md:duration-300"
+        href="https://bsky.app/profile/brysonbw.bsky.social"
+        target="_blank"
+      >
+        <img
+          class="h-[1.14rem] w-[1.14rem] rounded-full"
+          src="~/assets/images/blue-sky.png"
+          alt="blue-sky-logo"
+        ></a>
       <!-- Github -->
       <a
         class="md:transition ease-in-out md:ease-in-out md:hover:-translate-y-1 md:hover:scale-110 md:duration-300"
         href="https://github.com/brysonbw"
+        target="_blank"
       >
         <svg
           viewBox="0 0 24 24"
@@ -32,6 +45,7 @@
       <a
         class="md:transition pt-[.1rem] md:ease-in-out md:hover:-translate-y-1 md:hover:scale-110 md:duration-300"
         href="https://www.linkedin.com/in/bryson-ward-b54085118/"
+        target="_blank"
       >
         <img
           class="h-4 w-4"
