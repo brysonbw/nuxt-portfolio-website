@@ -8,15 +8,15 @@ import next from '@/assets/images/nextjs-lg.jpg';
 export const useProjectStore = defineStore('project', {
   state: (): ProjectStore => ({
     projects: [
-      {
-        image: '/img/code-cause.png',
-        image_alt: 'code-cause-non-profit-app-img',
-        link: 'https://codecause.dev/',
-        name: 'Code Cause',
-        description: 'A non-profit and global, tech-driven community fueled by purpose and powered by innovation. Building a Better World Through Code – Inspiring Innovation, Enabling Progress, and Driving Impact.',
-        image_icons: [],
-        dev_icons: ['angular', 'javascript', 'typescript', 'tailwindCss', 'firebase'],
-      },
+      // {
+      //   image: '/img/code-cause.png',
+      //   image_alt: 'code-cause-non-profit-app-img',
+      //   link: 'https://codecause.dev/',
+      //   name: 'Code Cause',
+      //   description: 'An online tech-driven community fueled by purpose and powered by innovation. Building a Better World Through Code – Inspiring Innovation, Enabling Progress, and Driving Impact.',
+      //   image_icons: [],
+      //   dev_icons: ['angular', 'javascript', 'typescript', 'tailwindCss', 'firebase'],
+      // },
       {
         image: '/img/ip-address-tracker.png',
         image_alt: 'ip-address-tracker-app-img',
