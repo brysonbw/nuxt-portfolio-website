@@ -28,40 +28,38 @@
         problems. And most importantly creating the change I want to see in the
         world!
       </p>
-      <!-- Portfolio -->
-      <p class="mt-4">
-        <NuxtLink
-          to="/portfolio"
-          class="text-zinc-600 font-medium dark:text-primary"
-        >
-          Portfolio: Skills & Projects</NuxtLink>
-      </p>
       <!-- Blog -->
-      <p class="mt-4">
+      <div class="flex items-center my-4 gap-1">
+        <ChevronDoubleRightIcon class="w-3 h-3 text-zinc-600 font-medium dark:text-primary" />
         <NuxtLink
           to="/blog"
           class="text-zinc-600 font-medium dark:text-primary"
         >
           Blog</NuxtLink>
-      </p>
+      </div>
+      <!-- Portfolio -->
+      <div class="flex items-center my-4 gap-1">
+        <ChevronDoubleRightIcon class="w-3 h-3 text-zinc-600 font-medium dark:text-primary" />
+        <NuxtLink
+          to="/portfolio"
+          class="text-zinc-600 font-medium dark:text-primary"
+        >
+          Portfolio: Skills & Projects</NuxtLink>
+      </div>
       <!-- Certificates -->
-      <p class="mt-4 text-zinc-600 font-medium dark:text-primary">
-        Certificates
-      </p>
-      <ul
-        class="list-disc marker:dark:text-primary marker:text-zinc-600 ml-[1.1rem]"
-      >
-        <li>
-          <a
-            href="/pdf/sec-cert.pdf"
-            target="_blank"
-          >Security+ (SY0-601)</a>
-        </li>
-      </ul>
+      <div class="flex items-center my-4 gap-1">
+        <ChevronDoubleRightIcon class="w-3 h-3 text-zinc-600 font-medium dark:text-primary" />
+        <NuxtLink
+          to="/certifications"
+          class="text-zinc-600 font-medium dark:text-primary"
+        >
+          Certifications</NuxtLink>
+      </div>
     </section>
   </div>
 </template>
 
 <script setup lang="ts">
+import { ChevronDoubleRightIcon } from '@heroicons/vue/24/solid';
 import SocialLinks from '@/components/SocialLinks.vue';
 </script>
