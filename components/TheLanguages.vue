@@ -27,9 +27,7 @@ import { useAppStore } from '@/stores/app';
 // Stores
 const appStore = useAppStore();
 
-const filteredKeys = ['javascript', 'typescript', 'csharp', 'php', 'html', 'css'];
-
-const items = appStore.getDevIconItems(filteredKeys);
+const items = appStore.getDevIconItems(['javascript', 'typescript', 'csharp', 'php']);
 </script>
 
 <style scoped>

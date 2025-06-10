@@ -27,9 +27,22 @@ import { useAppStore } from '@/stores/app';
 // Stores
 const appStore = useAppStore();
 
-const filteredKeys = ['angular', 'react', 'vue', 'angularMaterial', 'vuetify', 'tailwindcss', 'next', 'nuxt', 'node', 'dotnetCore', 'firebase', 'mysql', 'postgresql', 'mssqlserver'];
-
-const items = appStore.getDevIconItems(filteredKeys);
+const items = appStore.getDevIconItems([
+  'angular',
+  'react',
+  'vue',
+  'angularMaterial',
+  'vuetify',
+  'tailwindcss',
+  'next',
+  'nuxt',
+  'node',
+  'dotnetCore',
+  'firebase',
+  'mysql',
+  'postgresql',
+  'mssqlserver',
+]);
 </script>
 
 <style scoped>
