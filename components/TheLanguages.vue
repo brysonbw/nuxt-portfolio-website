@@ -5,18 +5,16 @@
         Languages
       </h1>
     </header>
-    <div class="flex justify-center">
-      <ul class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-6 gap-4 text-center text-gray-500 dark:text-gray-400">
+    <div class="flex flex-col items-center">
+      <ul class="flex flex-wrap justify-center gap-2 text-center text-gray-500 dark:text-gray-400">
         <li
-          v-for="(item, index) in items"
-          :key="index"
-          class="flex flex-col items-center space-y-2"
+          v-for="item in items"
+          :key="item.name"
+          class="flex flex-col items-center space-y-2 w-14"
         >
-          <img
-            :width="50"
-            :alt="item.name"
-            :src="item.src"
-          >
+          <i
+            :class="`devicon devicon-${item.icon}`"
+          />
         </li>
       </ul>
     </div>
@@ -24,15 +22,18 @@
 </template>
 
 <script setup lang="ts">
-const items = [
-  { name: 'JavaScript', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
-  { name: 'TypeScript', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
-  { name: 'C#', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg' },
-  { name: 'PHP', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg' },
-  { name: 'HTML', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
-  { name: 'CSS', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
-];
+import { useAppStore } from '@/stores/app';
+
+// Stores
+const appStore = useAppStore();
+
+const filteredKeys = ['javascript', 'typescript', 'csharp', 'php', 'html', 'css'];
+
+const items = appStore.getDevIconItems(filteredKeys);
 </script>
 
 <style scoped>
+.devicon {
+  font-size: 2.7rem;
+}
 </style>

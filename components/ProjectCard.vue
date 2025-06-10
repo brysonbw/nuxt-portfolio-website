@@ -10,48 +10,45 @@
         :alt="`${project.image_alt}`"
       >
     </div>
-    <div class="p-3">
-      <!-- Title/Name -->
-      <a
-        target="_blank"
-        class="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white"
-        :href="`${project.link}`"
-      >
-        {{ project.name }}
-      </a>
+    <div class="flex flex-col p-3 gap-[0.35rem]">
+      <!-- Title -->
+      <div class="flex-row">
+        <a
+          target="_blank"
+          class="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white"
+          :href="`${project.link}`"
+        >
+          {{ project.name }}
+        </a>
+      </div>
       <!-- Description -->
-      <p class="mb-3 font-normal text-gray-700 dark:text-gray-300">
-        {{ project.description }}
-      </p>
-      <div
-
-        class="flex flex-wrap gap-2"
-      >
-        <!-- Tech Stack Icons -->
-        <!-- Image -->
+      <div class="flex-row mb-1">
+        <p class="font-normal text-gray-700 dark:text-gray-300">
+          {{ project.description }}
+        </p>
+      </div>
+      <!-- Tech Stack Icons And/Or Images -->
+      <div class="flex flex-row flex-wrap gap-1">
         <div v-if="project?.image_icons && project?.image_icons?.length > 0">
           <img
             v-for="(img_icon, index) in project.image_icons"
             :key="img_icon + index"
-            :class="['w-8 h-8 inline-flex', img_icon.classes]"
+            :class="['w-6 h-6 inline-flex', img_icon.classes]"
             :src="img_icon.src"
             :alt="img_icon.name"
           >
         </div>
-        <img
+        <i
           v-for="(dev_icon, index) in project.dev_icons"
           :key="dev_icon + index"
-          class="w-8 h-8"
-          :src="devIcons[dev_icon]"
-          :alt="dev_icon"
-        >
+          :class="`devicon devicon-${devIcons[dev_icon]} ${dev_icon === 'typescript' && 'ml-1'}`"
+        />
       </div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue';
 import { useAppStore } from '@/stores/app';
 
 defineProps({
@@ -64,12 +61,13 @@ defineProps({
 // Stores
 const appStore = useAppStore();
 
-// Computed
-const devIcons = computed(() => {
-  return appStore.devIcons;
-});
+const devIcons = appStore.devIcons;
 </script>
 
 <style scoped>
-
+.devicon {
+  font-size: 1.5rem;
+  display: inline-flex;
+  align-items: center;
+}
 </style>

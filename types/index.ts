@@ -1,6 +1,4 @@
-export type DevIcon = {
-  [key: string]: string;
-};
+export type DevIcon = Record<string, string>;
 
 type ImageIcon = {
   name: string;
