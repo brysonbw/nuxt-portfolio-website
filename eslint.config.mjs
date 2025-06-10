@@ -1,14 +1,19 @@
-import { createConfigForNuxt } from '@nuxt/eslint-config/flat';
+// @ts-check
+import withNuxt from './.nuxt/eslint.config.mjs';
 
-export default createConfigForNuxt({
-  features: {
-    stylistic: {
-      semi: true,
-      indent: 2,
-      quotes: 'single',
-      trailingComma: 'es5',
-      tabWidth: 2,
-    },
+export default withNuxt(
+  {
+    ignores: [
+      '.DS_Store',
+      'node_modules',
+      '/build',
+      '/package',
+      '.env',
+      '.env.*',
+      '!.env.example',
+      'pnpm-lock.yaml',
+      'package-lock.json',
+      'yarn.lock',
+    ],
   },
-  files: ['.js,.vue'],
-});
+);
