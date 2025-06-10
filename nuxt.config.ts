@@ -1,34 +1,42 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode', '@nuxt/content', '@nuxt/eslint', '@pinia/nuxt'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/color-mode',
+    '@nuxt/content',
+    '@nuxt/eslint',
+    '@pinia/nuxt',
+  ],
   app: {
     head: {
       title: 'Bryson Ward | Home',
-      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        {
+          rel: 'stylesheet',
+          href: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css',
+        },
+      ],
       meta: [
         // Global Main
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'description', content: 'Bryson Ward: Full Stack Engineer' },
         // Open Graph / Facebook
-        { hid: 'og:type', property: 'og:type', content: 'website' },
+        { property: 'og:type', content: 'website' },
         {
-          hid: 'og:url',
           property: 'og:url',
           content: 'https://brysonward.com/',
         },
         {
-          hid: 'og:title',
           property: 'og:title',
           content: 'Bryson Ward | Home',
         },
         {
-          hid: 'og:description',
           property: 'og:description',
           content: 'Bryson Ward: Full Stack Engineer',
         },
         {
-          hid: 'og:image',
           property: 'og:image',
           content:
             'https://res.cloudinary.com/ddlhtsgmp/image/upload/v1655851213/portfolio-site-img_bkoiaj.png',
@@ -36,22 +44,18 @@ export default defineNuxtConfig({
         // Twitter Card
         { name: 'twitter:card', content: 'summary_large_image' },
         {
-          hid: 'twitter:url',
           name: 'twitter:url',
           content: 'https://brysonward.com/',
         },
         {
-          hid: 'twitter:title',
           name: 'twitter:title',
           content: 'Bryson Ward | Home',
         },
         {
-          hid: 'twitter:description',
           name: 'twitter:description',
           content: 'Bryson Ward: Full Stack Engineer',
         },
         {
-          hid: 'twitter:image',
           name: 'twitter:image',
           content:
             'https://res.cloudinary.com/ddlhtsgmp/image/upload/v1655851213/portfolio-site-img_bkoiaj.png',
@@ -72,4 +76,14 @@ export default defineNuxtConfig({
     '@stores': './stores',
   },
   compatibilityDate: '2024-08-09',
+  eslint: {
+    config: {
+      stylistic: {
+        semi: true,
+        quotes: 'single',
+        indent: 2,
+        blockSpacing: true,
+      },
+    },
+  },
 });
